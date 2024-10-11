@@ -1,0 +1,117 @@
+.element-light {
+    position: relative;
+    width: 1920px;
+    height: 4864px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.element-light .overlap {
+    position: absolute;
+    width: 603px;
+    height: 52px;
+    top: 1338px;
+    left: 660px;
+}
+
+.element-light .main-open-png {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    top: 2px;
+    left: 0;
+    background-image: url(https://c.animaapp.com/fqwjCAM3/img/main-open-png@2x.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.element-light .text-wrapper {
+    position: absolute;
+    width: 464px;
+    height: 52px;
+    top: 0;
+    left: 139px;
+    font-family: "Pretendard-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 52px;
+    white-space: nowrap;
+}
+
+.element-light .div {
+    position: absolute;
+    width: 263px;
+    height: 52px;
+    top: 1395px;
+    left: 638px;
+    font-family: "Pretendard-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 52px;
+    white-space: nowrap;
+}
+
+.element-light .overlap-group {
+    position: absolute;
+    width: 382px;
+    height: 55px;
+    top: 1392px;
+    left: 902px;
+}
+
+.element-light .main-mile-png {
+    position: absolute;
+    width: 120px;
+    height: 44px;
+    top: 0;
+    left: 0;
+    background-image: url(https://c.animaapp.com/fqwjCAM3/img/main-mile-png@2x.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.element-light .text-wrapper-2 {
+    position: absolute;
+    width: 263px;
+    height: 52px;
+    top: 3px;
+    left: 119px;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 52px;
+    white-space: nowrap;
+    font-family: "Pretendard-Regular", Helvetica;
+    font-weight: 400;
+}
+
+.element-light .vertical-divider {
+    position: absolute;
+    width: 1px;
+    height: 80px;
+    top: 1480px;
+    left: 960px;
+    background-color: #005aff;
+}
+
+.element-light .IT-IT {
+    position: absolute;
+    width: 569px;
+    height: 128px;
+    top: 1591px;
+    left: 676px;
+    font-family: "Pretendard-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 32px;
+}

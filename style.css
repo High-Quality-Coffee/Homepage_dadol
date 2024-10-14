@@ -96,12 +96,90 @@ nav ul li a {
     font-size: 48px;
     font-weight: bold;
     color: white;
+    white-space: nowrap; /* 줄바꿈 방지 */
 }
 
 .hero-text p {
     margin-top: 10px;
     font-size: 18px;
+    white-space: nowrap; /* 줄바꿈 방지 */
 }
+
+/* 반응형 스타일 추가 */
+@media (max-width: 1200px) {
+    .logo {
+        margin-left: 5rem;
+    }
+
+    nav ul {
+        margin-right: 5rem;
+    }
+
+    nav ul li {
+        margin-left: 3rem;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: centers;
+        padding: 10px;
+    }
+
+    .logo {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-right: 1rem;
+        margin-left: 0.5rem;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .hero {
+        height: 80vh;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        height: 60vh;
+    }
+
+    .hero-text h1 {
+        font-size: 24px;
+    }
+
+    .hero-text p {
+        font-size: 12px;
+    }
+}
+
 
 .main_box {
     padding: 8.75em 0;
@@ -117,6 +195,7 @@ nav ul li a {
 
 .cb .main_txt .tt {
     color: #000;
+    white-space: nowrap; /* 줄바꿈 방지 */
 }
 
 .main_txt .t5 {
@@ -133,6 +212,16 @@ nav ul li a {
     font-size: 1.250em;
 }
 
+.main_txt .divider{
+    width: 1px;
+    height: 5em;
+    background-color: #0056ff;
+    margin: 30px auto;
+}
+
+.main_txt .blue-text{
+    color: #0056ff;
+}
 
 /* 세차를 하지 않는 이유 */
 
@@ -171,6 +260,18 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
+@media (min-width: 768px) {
+    .reason-cards {
+        flex-direction: row;
+    }
+
+    .reason-card {
+        width: 23%;
+        margin-bottom: 20px;
+    }
+}
+
+
 .card-header {
     position: relative;
     margin-bottom: 20px;
@@ -198,7 +299,8 @@ nav ul li a {
     font-size: 16px;
     color: #666;
     height: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
+    
 }
 
 .reason-card img {
@@ -209,6 +311,80 @@ nav ul li a {
 
 /* 세차를 하지 않는 이유 end */
 
+/* 세차 서비스 기업의 선두자 start */
+
+.container-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.left-content {
+    flex: 0.5;
+}
+
+.right-content {
+    flex: 1;
+}
+
+.left-content h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    /* white-space: nowrap; 줄바꿈 방지 */
+}
+
+.divider {
+    width: 100px;
+    height: 2px;
+    background-color: #333;
+    margin: 0 4rem;
+}
+
+.right-content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+    /* white-space: nowrap; 줄바꿈 방지 */
+}
+
+@media (min-width: 768px) {
+    .container-text {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .left-content h1 {
+        font-size: 2.5em;
+    }
+
+    .right-content p {
+        font-size: 1.1em;
+    }
+}
+
+.right-content .tags {
+    font-size: 0.9em;
+    color: #333;
+}
+
+.tag {
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.center-line {
+    display: flex;
+    align-items: center;
+}
+
+
+/* 세차 기업의 선두자 end */
 
 /* 다돌의 성장 이력*/
 

@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
-body,
+
 body {
     font-family: 'Arial', sans-serif;
     width: 100%;
     overflow-x: hidden;
+}
 
+@media (max-width:768px) {
+    html,body {
+        overflow-x: hidden;
+    }
 }
 
 header {
@@ -130,6 +135,7 @@ nav ul li a {
 
 @media (max-width: 768px) {
     header {
+        display: flex;
         flex-direction: column;
         align-items: centers;
         padding: 10px;
@@ -141,6 +147,12 @@ nav ul li a {
     }
 
     nav ul {
+        display: none;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background-color: white;
+    
         flex-direction: column;
         justify-content: center;
         text-align: center;
@@ -153,6 +165,10 @@ nav ul li a {
         margin-top: 1rem;
     }
 
+    header:hover nav ul {
+        display: flex; /* 메뉴를 보이게 하면서 Flexbox로 정렬 */
+    }
+    
     .hero {
         height: 80vh;
     }
@@ -195,7 +211,7 @@ nav ul li a {
 
 .cb .main_txt .tt {
     color: #000;
-    white-space: nowrap; /* 줄바꿈 방지 */
+    white-space: nowrap;
 }
 
 .main_txt .t5 {
@@ -221,6 +237,16 @@ nav ul li a {
 
 .main_txt .blue-text{
     color: #0056ff;
+}
+
+@media (max-width: 768px){
+    .main_txt>.tit .tt{
+        font-size: 28px;
+    }
+
+    .main_txt>.txt .tt {
+        font-size: 14px;
+    }
 }
 
 /* 세차를 하지 않는 이유 */
@@ -258,6 +284,29 @@ nav ul li a {
     width: 23%;
     text-align: center;
     margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .reason-section h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .subheading {
+        font-size: 12.5px;
+    }
+
+    .reason-cards{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reason-card{
+        width: 100%;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -309,6 +358,24 @@ nav ul li a {
     height: auto;
 }
 
+@media (max-width: 768px) {
+    .circle{
+        font-size: 10px;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+
+    .reason-card h3 {
+        font-size: 18px;
+    }
+
+    .reason-card p {
+        font-size: 14px;
+        margin-bottom: 1rem;
+    }
+}
+
 /* 세차를 하지 않는 이유 end */
 
 /* 세차 서비스 기업의 선두자 start */
@@ -335,7 +402,7 @@ nav ul li a {
     font-weight: bold;
     margin-bottom: 20px;
     line-height: 1.4;
-    /* white-space: nowrap; 줄바꿈 방지 */
+    white-space: nowrap; 
 }
 
 .divider {
@@ -350,7 +417,7 @@ nav ul li a {
     line-height: 1.6;
     color: #666;
     margin-bottom: 20px;
-    /* white-space: nowrap; 줄바꿈 방지 */
+    /* white-space: nowrap;  */
 }
 
 @media (min-width: 768px) {
@@ -366,6 +433,46 @@ nav ul li a {
     .right-content p {
         font-size: 1.1em;
     }
+}
+
+@media (max-width: 768px) {
+    .container-text {
+        display: flex;
+        flex-direction: column; /* 상하로 정렬 */
+        align-items: center; /* 가운데 정렬 */
+        justify-content: center; /* 중앙 배치 */
+    }
+    
+    .left-content, .right-content {
+        margin-bottom: 20px; /* 상하 간격 */
+        text-align: center; /* 텍스트 가운데 정렬 */
+    }
+
+    .left-content h1{
+        font-size: 28px;
+    }
+    
+    .right-content p{
+        font-size: 14px;
+    }
+
+    .center-line {
+        display: none; /* 수평 라인 제거 */
+    }
+
+    .divider {
+        display: none;
+    }
+    
+    .tags {
+        margin-top: 10px;
+    }
+    
+    .tag {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    
 }
 
 .right-content .tags {
@@ -505,6 +612,8 @@ nav ul li a {
     color: #bbb;
 }
 
+
+
 .growth-note {
     display: inline-block;
     background-color: white;
@@ -513,6 +622,43 @@ nav ul li a {
     padding: 5px 10px;
     font-size: 0.8rem;
     margin-top: 2.5rem;
+}
+
+@media (max-width:768px) {
+    .text-section {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: -16rem auto;
+    }
+
+    .text-section h1{
+        font-size: 28px;
+        margin: 0 auto;
+    }
+
+    .text-section .text-service {
+        border-bottom: none;
+        margin-bottom: 1rem;
+    }
+    
+    .growth-note{
+        display: none;
+    }
+
+    .text-section .text-subservice{
+        border-top: 1px solid white;
+    }
+
+    .text-section .subtext {
+        border-top: 1px solid white;
+        font-size: 0.9rem;
+        color: #bbb;
+        padding-top: 20px;
+    }
 }
 
 /* Company section */
@@ -546,6 +692,14 @@ nav ul li a {
 .company-logo img {
     width: 150px;
     height: auto;
+}
+
+@media (max-width:768px) {
+    .company-logo img {
+        width: 100px;
+        height: auto;
+    }
+    
 }
 
 /* 다돌의 성장이력 end */
@@ -639,6 +793,14 @@ footer .logo {
     width: 100px;
     /* justify-content: center; */
     margin: 30px auto 0;
+}
+
+@media (max-width:768px) {
+    footer .info{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    
 }
 
 /* footer end */

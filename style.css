@@ -76,6 +76,7 @@ nav ul li a {
     background-image: url('./images/세차.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero-text {

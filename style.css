@@ -73,7 +73,7 @@ nav ul li a {
 
     z-index: 10;
     box-sizing: border-box;
-    background-image: url('./img/세차.jpg');
+    background-image: url('./img/세차.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }

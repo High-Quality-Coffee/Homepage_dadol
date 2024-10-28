@@ -113,9 +113,9 @@
   letter-spacing: -0.02em;
   font-weight: 700;
   position: absolute;
-  left: calc(50% - 4rem);
+  left: calc(50% - 5rem);
   top: 12.75rem;
-  width: 8.8125rem;
+  width: 10.8125rem;
   height: 2.1875rem;
 }
 

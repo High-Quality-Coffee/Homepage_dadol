@@ -2,11 +2,13 @@
 .frame-1437255939 * {
   box-sizing: border-box;
 }
+
 .frame-1437255939 {
   height: 837px;
   position: relative;
   overflow: hidden;
 }
+
 .div {
   width: 390px;
   height: 837px;
@@ -15,6 +17,7 @@
   top: 0px;
   overflow: hidden;
 }
+
 .i-phone-13-14-7 {
   background: #ffffff;
   width: 390px;
@@ -24,14 +27,16 @@
   top: 0px;
   overflow: hidden;
 }
+
 .group-33782 {
   height: auto;
   position: absolute;
   left: 211px;
   top: 35px;
- 
+
   overflow: hidden;
 }
+
 .frame-4544 {
   width: 390px;
   height: 210px;
@@ -40,6 +45,7 @@
   top: 0px;
   overflow: hidden;
 }
+
 ._10 {
   color: #ffffff;
   text-align: left;
@@ -48,6 +54,7 @@
   top: 502px;
   overflow: hidden;
 }
+
 ._10-span {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -56,6 +63,7 @@
   font-weight: 700;
   overflow: hidden;
 }
+
 ._10-span2 {
   color: #ffffff;
   font-family: "Pretendard-SemiBold", sans-serif;
@@ -64,6 +72,7 @@
   font-weight: 600;
   overflow: hidden;
 }
+
 .div2 {
   color: #ffffff;
   text-align: left;
@@ -76,6 +85,7 @@
   overflow: hidden;
   top: 687px;
 }
+
 ._1 {
   color: #ffffff;
   text-align: left;
@@ -87,6 +97,7 @@
   left: 1232px;
   top: 819px;
 }
+
 ._2 {
   color: #ffffff;
   text-align: left;
@@ -98,6 +109,7 @@
   left: 1271px;
   top: 828px;
 }
+
 ._3 {
   color: #ffffff;
   text-align: left;
@@ -110,6 +122,7 @@
   top: 828px;
   overflow: hidden;
 }
+
 .arrow-1 {
   width: 50px;
   height: 0px;
@@ -117,8 +130,9 @@
   left: 1351px;
   top: 846px;
   overflow: hidden;
-  
+
 }
+
 ._102 {
   color: #ffffff;
   text-align: left;
@@ -127,6 +141,7 @@
   left: 17px;
   top: 69px;
 }
+
 ._102-span {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -135,6 +150,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 ._102-span2 {
   color: #ffffff;
   font-family: "Pretendard-SemiBold", sans-serif;
@@ -143,6 +159,7 @@
   overflow: hidden;
   font-weight: 600;
 }
+
 .div3 {
   color: #ffffff;
   text-align: left;
@@ -155,6 +172,7 @@
   left: 17px;
   top: 136px;
 }
+
 .frame-4545 {
   width: 375px;
   height: 33px;
@@ -164,11 +182,13 @@
   top: 0px;
   overflow: hidden;
 }
+
 .group-1771 {
   position: absolute;
   overflow: hidden;
   inset: 0;
 }
+
 .h-3-heading-title-in-two-lines {
   color: var(--color-white-solid, #ffffff);
   overflow: hidden;
@@ -185,16 +205,18 @@
   width: 88px;
   height: 30px;
 }
+
 .menu {
   width: 24px;
   overflow: hidden;
   height: 24px;
   position: absolute;
   left: 340px;
-  
+
   top: 9px;
-  
+
 }
+
 ._2024-10-23-3-51-33-1 {
   width: 367px;
   height: 432px;
@@ -205,6 +227,7 @@
   top: 210px;
   object-fit: cover;
 }
+
 ._2024-10-23-3-52-01-1 {
   width: 3780px;
   height: 400px;
@@ -214,6 +237,7 @@
   top: 2332px;
   object-fit: cover;
 }
+
 ._2024-10-23-3-52-01-2 {
   width: 390px;
   height: 41.27px;
@@ -223,6 +247,7 @@
   top: 657px;
   object-fit: cover;
 }
+
 .image-161 {
   width: 390px;
   height: 42.52px;
@@ -231,6 +256,7 @@
   top: 988px;
   overflow: hidden;
 }
+
 .image-1612 {
   width: 390px;
   height: 42.52px;
@@ -239,6 +265,7 @@
   overflow: hidden;
   top: 728px;
 }
+
 .frame-1437255938 {
   width: 390px;
   height: 150px;
@@ -248,6 +275,7 @@
   overflow: hidden;
   overflow: hidden;
 }
+
 .background {
   background: var(--color-black-solid, #000000);
   width: 390px;
@@ -257,6 +285,7 @@
   top: 0px;
   overflow: hidden;
 }
+
 .item-2022-2199 {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -276,6 +305,7 @@
   justify-content: flex-start;
   overflow: hidden;
 }
+
 .item {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -294,6 +324,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item-copyright-c-openmile-co-ltd-all-rights-reserved {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -312,4 +343,340 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1000;
+  background-color: transparent;
+  /* 기본 배경색을 투명으로 설정 */
+  transition: ba-color 0.3s ease;
+  /* 배경색 전환 효과 */
+}
+
+header:hover,
+nav ul li:hover~header {
+  background-color: white;
+  /* 헤더 배경색을 흰색으로 변경 */
+}
+
+header:hover a,
+header:hover nav ul .dropdown a,
+/* 드롭다운 a 태그도 검은색으로 변경 */
+header:hover .logo,
+nav ul li:hover~header a,
+nav ul li:hover~header nav ul .dropdown a,
+nav ul li:hover~header .logo {
+  color: black;
+  /* 헤더에 마우스를 올렸을 때 모든 a 태그의 폰트 색상을 검은색으로 변경 */
+}
+
+
+.logo {
+  font-family: 'Pretendard';
+  position: absolute;
+  left: 0;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  margin-left: 3rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 10px;
+}
+
+nav ul .dropdown {
+  margin-left: 4rem;
+}
+
+.dropdown:hover header {
+  background-color: #fff;
+  /* 헤더 배경색 흰색으로 변경 */
+}
+
+.nodropdown {
+  margin-left: 4rem;
+}
+
+.nodropdown a {
+  font-family: 'Pretendard';
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav ul .dropdown a {
+  font-family: 'pretendard';
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+nav .dropdown .submenu-company-introduction {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-33%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+  width: 10rem;
+}
+
+.dropdown:hover .submenu-company-introduction {
+  display: block;
+}
+
+.submenu-company-introduction li {
+  width: 100%;
+}
+
+.submenu-company-introduction li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown .submenu-carcare-service {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-24%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+  width: 10rem;
+}
+
+.dropdown:hover .submenu-carcare-service {
+  display: block;
+}
+
+.submenu-carcare-service li {
+  width: 100%;
+}
+
+.submenu-carcare-service li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown .submenu-product-service {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-28%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+  width: 10rem;
+}
+
+.dropdown:hover .submenu-product-service {
+  display: block;
+}
+
+.submenu-product-service li {
+  width: 100%;
+}
+
+.submenu-product-service li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown .submenu-language {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-27%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+}
+
+.dropdown:hover .submenu-language {
+  display: block;
+}
+
+.submenu-language li {
+  width: 100%;
+}
+
+.submenu-language li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+header nav ul .submenu-company-introduction li a,
+header nav ul .submenu-carcare-service li a,
+header nav ul .submenu-product-service li a,
+header nav ul .submenu-language li a {
+  color: #333;
+  /* 드롭다운 링크 색상 */
+}
+
+header nav ul .submenu-company-introduction li a:hover,
+header nav ul .submenu-carcare-service li a:hover,
+header nav ul .submenu-product-service li a:hover,
+header nav ul .submenu-language li a:hover {
+  color: #007BFF;
+  /* 드롭다운 링크 호버 색상 변경 */
+}
+
+.hamburger {
+  display: none;
+  /* 기본 상태에서는 숨김 */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* 스크롤 시 헤더 스타일 (배경색 흰색) */
+.header.scrolled {
+  background-color: white;
+  /* 스크롤 시 배경색 흰색 */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  /* 살짝 그림자 */
+  color: black;
+  /* 로고 및 텍스트 색상 */
+}
+
+/* 스크롤된 상태에서 링크 색상 변경 */
+.header.scrolled nav ul li a {
+  color: black;
+  /* 스크롤 후 텍스트 색상 변경 */
+}
+
+/* 반응형 스타일 추가 */
+@media (max-width: 1300px) {
+  .logo {
+    margin-left: 20px;
+  }
+
+  nav ul {
+    margin-right: 20px;
+  }
+
+  nav ul .dropdown {
+    margin-left: 20px;
+    white-space: nowrap;
+  }
+
+  .nodropdown {
+    margin-left: 20px;
+    white-space: nowrap;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 850px) {
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: centers;
+    padding: 10px;
+  }
+
+  .logo {
+    top: 10px;
+    margin-left: 20px;
+  }
+
+  nav ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  nav ul li {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  header:hover nav ul {
+    display: flex;
+    /* 메뉴를 보이게 하면서 Flexbox로 정렬 */
+  }
+
+  .hero {
+    height: 80vh;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+}
+
+a:visited {
+  color: inherit;
+  /* 원하는 색상으로 지정하거나, 기존 색상을 유지하려면 inherit 사용 */
+  text-decoration: none;
+  /* 링크가 변하지 않도록 텍스트 장식도 없앰 */
 }

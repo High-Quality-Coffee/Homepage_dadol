@@ -11,10 +11,12 @@
   box-sizing: border-box;
   font-family: 'Pretendard-Regular', sans-serif;
 }
+
 body {
   width: 100%;
   overflow-x: hidden;
 }
+
 a {
   color: inherit;
   text-decoration: none;
@@ -152,7 +154,7 @@ a {
 .sub-text .date,
 .sub-text .divider,
 .sub-text .writer {
-    margin: 1rem 0.1rem 0 0;
+  margin: 1rem 0.1rem 0 0;
 }
 
 .main_news .image {
@@ -175,7 +177,8 @@ a {
   display: inline-block;
 }
 
-.prev, .next {
+.prev,
+.next {
   color: #828c94;
   font-size: 1.2em;
 }
@@ -224,22 +227,358 @@ a {
 /* 모바일 전용 스타일 */
 @media (max-width: 768px) {
   .newsroom-title {
-      font-size: 1.8em;
+    font-size: 1.8em;
   }
 
   .newsroom-description {
-      font-size: 1em;
+    font-size: 1em;
   }
 
   .main_mainNews_text .main-text h2 {
-      font-size: 0.9rem;
+    font-size: 0.9rem;
   }
 
   .main_news {
-      margin-bottom: 1rem;
+    margin-bottom: 1rem;
   }
 
   .paginator {
-      gap: 10px;
+    gap: 10px;
   }
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1000;
+  background-color: transparent;
+  /* 기본 배경색을 투명으로 설정 */
+  transition: ba-color 0.3s ease;
+  /* 배경색 전환 효과 */
+}
+
+header:hover,
+nav ul li:hover~header {
+  background-color: white;
+  /* 헤더 배경색을 흰색으로 변경 */
+}
+
+header:hover a,
+header:hover nav ul .dropdown a,
+/* 드롭다운 a 태그도 검은색으로 변경 */
+header:hover .logo,
+nav ul li:hover~header a,
+nav ul li:hover~header nav ul .dropdown a,
+nav ul li:hover~header .logo {
+  color: black;
+  /* 헤더에 마우스를 올렸을 때 모든 a 태그의 폰트 색상을 검은색으로 변경 */
+}
+
+
+.logo {
+  font-family: 'Pretendard';
+  position: absolute;
+  left: 0;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  margin-left: 3rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 10px;
+}
+
+nav ul .dropdown {
+  margin-left: 4rem;
+}
+
+.dropdown:hover header {
+  background-color: #fff;
+  /* 헤더 배경색 흰색으로 변경 */
+}
+
+.nodropdown {
+  margin-left: 4rem;
+}
+
+.nodropdown a {
+  font-family: 'Pretendard';
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav ul .dropdown a {
+  font-family: 'pretendard';
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+nav .dropdown .submenu-company-introduction {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-33%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+  width: 10rem;
+}
+
+.dropdown:hover .submenu-company-introduction {
+  display: block;
+}
+
+.submenu-company-introduction li {
+  width: 100%;
+}
+
+.submenu-company-introduction li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown .submenu-carcare-service {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-24%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+  width: 10rem;
+}
+
+.dropdown:hover .submenu-carcare-service {
+  display: block;
+}
+
+.submenu-carcare-service li {
+  width: 100%;
+}
+
+.submenu-carcare-service li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown .submenu-product-service {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-28%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+  width: 10rem;
+}
+
+.dropdown:hover .submenu-product-service {
+  display: block;
+}
+
+.submenu-product-service li {
+  width: 100%;
+}
+
+.submenu-product-service li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown .submenu-language {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-27%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+}
+
+.dropdown:hover .submenu-language {
+  display: block;
+}
+
+.submenu-language li {
+  width: 100%;
+}
+
+.submenu-language li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+header nav ul .submenu-company-introduction li a,
+header nav ul .submenu-carcare-service li a,
+header nav ul .submenu-product-service li a,
+header nav ul .submenu-language li a {
+  color: #333;
+  /* 드롭다운 링크 색상 */
+}
+
+header nav ul .submenu-company-introduction li a:hover,
+header nav ul .submenu-carcare-service li a:hover,
+header nav ul .submenu-product-service li a:hover,
+header nav ul .submenu-language li a:hover {
+  color: #007BFF;
+  /* 드롭다운 링크 호버 색상 변경 */
+}
+
+.hamburger {
+  display: none;
+  /* 기본 상태에서는 숨김 */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* 스크롤 시 헤더 스타일 (배경색 흰색) */
+.header.scrolled {
+  background-color: white;
+  /* 스크롤 시 배경색 흰색 */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  /* 살짝 그림자 */
+  color: black;
+  /* 로고 및 텍스트 색상 */
+}
+
+/* 스크롤된 상태에서 링크 색상 변경 */
+.header.scrolled nav ul li a {
+  color: black;
+  /* 스크롤 후 텍스트 색상 변경 */
+}
+
+/* 반응형 스타일 추가 */
+@media (max-width: 1300px) {
+  .logo {
+    margin-left: 20px;
+  }
+
+  nav ul {
+    margin-right: 20px;
+  }
+
+  nav ul .dropdown {
+    margin-left: 20px;
+    white-space: nowrap;
+  }
+
+  .nodropdown {
+    margin-left: 20px;
+    white-space: nowrap;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 850px) {
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: centers;
+    padding: 10px;
+  }
+
+  .logo {
+    top: 10px;
+    margin-left: 20px;
+  }
+
+  nav ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  nav ul li {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  header:hover nav ul {
+    display: flex;
+    /* 메뉴를 보이게 하면서 Flexbox로 정렬 */
+  }
+
+  .hero {
+    height: 80vh;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+}
+
+a:visited {
+  color: inherit;
+  /* 원하는 색상으로 지정하거나, 기존 색상을 유지하려면 inherit 사용 */
+  text-decoration: none;
+  /* 링크가 변하지 않도록 텍스트 장식도 없앰 */
 }

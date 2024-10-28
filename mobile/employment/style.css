@@ -1,0 +1,411 @@
+.div,
+.div * {
+  box-sizing: border-box;
+}
+
+.div {
+  background: #ffffff;
+  height: 1134px;
+  position: relative;
+  overflow: hidden;
+}
+
+.group-33839 {
+  position: absolute;
+  inset: 0;
+}
+
+.frame-4546 {
+  width: 202px;
+  height: 56px;
+  position: absolute;
+  left: calc(50% - 101px);
+  top: 240px;
+  overflow: hidden;
+}
+
+.group-33741 {
+  position: absolute;
+  inset: 0;
+}
+
+.h-3-heading-title-in-two-lines {
+  color: #3b3b3b;
+  text-align: center;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 87.2px);
+  top: 15px;
+  width: 179.53px;
+  height: 41.12px;
+}
+
+.group-33838 {
+  width: 354px;
+  height: 307px;
+  position: static;
+}
+
+.search {
+  background: var(--white, #ffffff);
+  border-style: solid;
+  border-color: #ebebeb;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 354px;
+  height: 50px;
+  position: absolute;
+  left: calc(50% - 177px);
+  top: 318px;
+}
+
+.frame {
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.search2 {
+  color: var(--gray-100, #666666);
+  text-align: left;
+  font-family: "Pretendard-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+  flex: 1;
+}
+
+.trailing-icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.group-1437256014 {
+  width: 354px;
+  height: 235px;
+  position: static;
+}
+
+.group-1437256013 {
+  width: 354px;
+  height: 50px;
+  position: static;
+}
+
+.search3 {
+  background: var(--white, #ffffff);
+  border-style: solid;
+  border-color: #ebebeb;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 354px;
+  height: 50px;
+  position: absolute;
+  left: calc(50% - 177px);
+  top: 390px;
+}
+
+.group-33808 {
+  width: 9px;
+  height: 5.09px;
+  position: absolute;
+  left: calc(50% - -158px);
+  top: 415px;
+  overflow: visible;
+}
+
+.dropdown-menu {
+  background: var(--white, #ffffff);
+  border-style: solid;
+  border-color: #ebebeb;
+  border-width: 1px;
+  padding: 8px 2px 8px 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 354px;
+  position: absolute;
+  left: calc(50% - 177px);
+  top: 439px;
+}
+
+.item {
+  padding: 5px 14px 5px 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.label {
+  color: #666666;
+  text-align: left;
+  font-family: "Pretendard-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+  flex: 1;
+}
+
+.group-33806 {
+  position: absolute;
+  inset: 0;
+}
+
+.rectangle {
+  width: 390.56px;
+  position: absolute;
+  left: calc(50% - 196px);
+  bottom: 37.04%;
+  top: 62.87%;
+  overflow: visible;
+}
+
+.h-2-heading {
+  color: var(--color-azure-15, #212529);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 15px;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 177px);
+  top: 660px;
+  width: 236.39px;
+}
+
+.h-3-heading-title-in-two-lines2 {
+  color: var(--color-azure-15, #212529);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 10px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 177px);
+  top: 682px;
+  width: 363.56px;
+}
+
+.h-2-heading2 {
+  color: var(--color-azure-15, #212529);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 15px;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 177px);
+  top: 714px;
+  width: 236.39px;
+}
+
+.h-3-heading-title-in-two-lines3 {
+  color: #666666;
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 10px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 177px);
+  top: 736px;
+  width: 363.56px;
+}
+
+.frame-1437255965 {
+  background: #ffffff;
+  padding: 0;
+  /* 패딩 제거 */
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  align-items: center;
+  /* 세로 가운데 정렬 */
+  justify-content: center;
+  /* 가로 가운데 정렬 */
+  width: 100vw;
+  /* 화면 전체 폭 */
+  height: 224px;
+  /* 고정된 높이 */
+  position: absolute;
+  left: 0;
+  /* 화면의 왼쪽 끝으로 고정 */
+  top: 0;
+  overflow: hidden;
+}
+
+.image-168 {
+  width: 100vw;
+  height: 224px;
+  position: absolute;
+  top: 0px;
+}
+
+.frame-4545 {
+  width: 390px;
+  height: 33px;
+  position: absolute;
+  left: calc(50% - 195px);
+  top: 0px;
+  overflow: hidden;
+}
+
+.group-1771 {
+  position: absolute;
+  inset: 0;
+}
+
+.h-3-heading-title-in-two-lines4 {
+  color: var(--color-white-solid, #ffffff);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: 10px;
+  top: 6px;
+  width: 88px;
+  height: 30px;
+}
+
+.menu {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 340px;
+  top: 9px;
+  overflow: visible;
+}
+
+.group-33819 {
+  position: absolute;
+  inset: 0;
+}
+
+.group-33833 {
+  width: 390px;
+  height: 93px;
+  position: static;
+}
+
+.div2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Pretendard-SemiBold", sans-serif;
+  font-size: 30px;
+  line-height: 140%;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 195px);
+  top: 131px;
+  width: 390px;
+  height: 83px;
+}
+
+.div3 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Pretendard-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 195px);
+  top: 177px;
+  width: 390px;
+  height: 47px;
+}
+
+.frame-1437255959 {
+  background: var(--color-black-solid, #000000);
+  width: 100vw;
+  height: 234px;
+  position: absolute;
+  justify-content: center;
+  /* left: calc(50% - 195px); */
+  top: 900px;
+}
+
+.group-1437255973 {
+  position: absolute;
+  inset: 0;
+}
+
+.group-33798 {
+  width: 390px;
+  height: 234px;
+  position: static;
+}
+
+.rectangle-8975 {
+  width: 390px;
+  height: 234px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+
+.most-fonts-have-a-particular-weight-which-corresponds-to-one-of-the-numbers-in-common-weight-name-mapping-however-some-fonts-called-variable-fonts-can-support-a-range-of-weights-with-a-more-or-less-fine-granularity-and-this-can-give-the-designer-a-much-closer-degree-of-control-over-the-chosen-weight {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Pretendard-Regular", sans-serif;
+  font-size: 10px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 187.04px);
+  top: 58px;
+  width: 332.71px;
+  height: 146px;
+}
+
+.h-3-heading-title-in-two-lines5 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 187.04px);
+  top: 21px;
+  width: 120px;
+}

@@ -634,8 +634,6 @@ header nav ul .submenu-language li a:hover {
   z-index: 1001;
 }
 
-.hamburger-icon {}
-
 /* 스크롤 시 헤더 스타일 (배경색 흰색) */
 .header.scrolled {
   background-color: white;
@@ -740,4 +738,11 @@ header nav ul .submenu-language li a:hover {
   .hero-text p {
     font-size: 14px;
   }
+}
+
+a:visited {
+  color: inherit;
+  /* 원하는 색상으로 지정하거나, 기존 색상을 유지하려면 inherit 사용 */
+  text-decoration: none;
+  /* 링크가 변하지 않도록 텍스트 장식도 없앰 */
 }

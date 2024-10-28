@@ -1603,8 +1603,6 @@ header nav ul .submenu-language li a:hover {
   z-index: 1001;
 }
 
-.hamburger-icon {}
-
 /* 스크롤 시 헤더 스타일 (배경색 흰색) */
 .header.scrolled {
   background-color: white;

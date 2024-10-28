@@ -1,0 +1,201 @@
+.div,
+.div * {
+  box-sizing: border-box;
+}
+.div {
+  height: 102.0625rem;
+  position: relative;
+}
+.div2 {
+  background: #ffffff;
+  width: 100%;
+  height: 102.0625rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  overflow: hidden;
+}
+.image-142 {
+  width: 100%;
+  height: 19.0625rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  object-fit: cover;
+}
+.h-3-heading-title-in-two-lines {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 1.5625rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: 1.75rem;
+  top: 0.8125rem;
+  width: 7.1875rem;
+  height: 1.875rem;
+}
+.menu {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  left: calc(50% - -9rem);
+  top: 1rem;
+  overflow: visible;
+}
+.most-fonts-have-a-particular-weight-which-corresponds-to-one-of-the-numbers-in-common-weight-name-mapping-however-some-fonts-called-variable-fonts-can-support-a-range-of-weights-with-a-more-or-less-fine-granularity-and-this-can-give-the-designer-a-much-closer-degree-of-control-over-the-chosen-weight {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Pretendard-Medium", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.375rem;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 2.8rem);
+  top: 14.9375rem;
+  width: 6rem;
+}
+.h-3-heading-title-in-two-lines2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 1.5625rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 4rem);
+  top: 12.8125rem;
+  width: 8.8125rem;
+  height: 2.1875rem;
+}
+.image-146 {
+  border-radius: 0.625rem;
+  width: 20.25rem;
+  height: 12.3125rem;
+  position: absolute;
+  left: calc(50% - 10.5rem);
+  top: 21.3125rem;
+  object-fit: cover;
+}
+.image-145 {
+  width: 100%;
+  height: 11.0625rem;
+  position: absolute;
+  left: 0rem;
+  top: 46.875rem;
+  object-fit: cover;
+}
+.h-3-heading-title-in-two-lines3 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 12.5rem);
+  top: 50.6875rem;
+  width: 24.0625rem;
+  height: 4.375rem;
+}
+.image-147 {
+  border-radius: 0.25rem;
+  width: 20.25rem;
+  height: 10.0625rem;
+  position: absolute;
+  left: calc(50% - 9.8rem);
+  top: 59.875rem;
+  object-fit: cover;
+}
+.h-3-heading-title-in-two-lines4 {
+  color: var(--primary, #545f71);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 1.5625rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 10.5rem);
+  top: 34.875rem;
+}
+.h-3-heading-title-in-two-lines5 {
+  color: var(--primary, #545f71);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 1.5625rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 9.8rem);
+  top: 71.1875rem;
+}
+.most-fonts-have-a-particular-weight-which-corresponds-to-one-of-the-numbers-in-common-weight-name-mapping-however-some-fonts-called-variable-fonts-can-support-a-range-of-weights-with-a-more-or-less-fine-granularity-and-this-can-give-the-designer-a-much-closer-degree-of-control-over-the-chosen-weight2 {
+  color: var(--primary, #545f71);
+  text-align: left;
+  font-family: "Pretendard-Regular", sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.375rem;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 10.5rem);
+  top: 37.5625rem;
+  width: 20.5rem;
+  height: 6.0625rem;
+}
+.most-fonts-have-a-particular-weight-which-corresponds-to-one-of-the-numbers-in-common-weight-name-mapping-however-some-fonts-called-variable-fonts-can-support-a-range-of-weights-with-a-more-or-less-fine-granularity-and-this-can-give-the-designer-a-much-closer-degree-of-control-over-the-chosen-weight3 {
+  color: var(--primary, #545f71);
+  text-align: left;
+  font-family: "Pretendard-Regular", sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.375rem;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 9.8rem);
+  top: 74.0625rem;
+  width: 20.5rem;
+  height: 9.8125rem;
+}
+.rectangle-8975 {
+  width: 100%;
+  height: 14.625rem;
+  position: absolute;
+  left: 0.0625rem;
+  top: 87.4375rem;
+  overflow: visible;
+  background-color: black;
+}
+.most-fonts-have-a-particular-weight-which-corresponds-to-one-of-the-numbers-in-common-weight-name-mapping-however-some-fonts-called-variable-fonts-can-support-a-range-of-weights-with-a-more-or-less-fine-granularity-and-this-can-give-the-designer-a-much-closer-degree-of-control-over-the-chosen-weight4 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Pretendard-Regular", sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.375rem;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  position: absolute;
+  left: 1.8125rem;
+  top: 91.0625rem;
+  width: 20.6875rem;
+  height: 9.125rem;
+}
+.h-3-heading-title-in-two-lines6 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: 1.8125rem;
+  top: 88.75rem;
+}

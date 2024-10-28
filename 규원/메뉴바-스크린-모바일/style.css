@@ -1,0 +1,426 @@
+.div,
+.div * {
+  box-sizing: border-box;
+}
+
+.div {
+  background: #ffffff;
+  width: 100vw;  /* 가로 크기를 화면 전체 너비로 설정 */
+  height: 62.0625rem; /* 세로 크기를 화면 전체 높이로 설정 */
+  position: relative;
+  overflow: hidden;
+}
+
+.div-inner{
+  width: 100%;
+}
+
+.group-1771 {
+  position: absolute;
+  inset: 0;
+}
+.h-3-heading-title-in-two-lines {
+  color: var(--primary, #545f71);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: 3.5rem;
+  top: 0.8125rem;
+  width: 5.5rem;
+  height: 1.875rem;
+}
+.frame-4545 {
+  width: 23.4375rem;
+  height: 1.25rem;
+  position: absolute;
+  left: 0.4375rem;
+  top: 3.875rem;
+  overflow: hidden;
+}
+.image-131 {
+  width: 24.375rem;
+  height: 15.5rem;
+  position: absolute;
+  left: 0rem;
+  top: 3.5rem;
+  object-fit: cover;
+}
+.h-3-heading-title-in-two-lines2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(--h3-font-family, "Inter-Bold", sans-serif);
+  font-size: var(--h3-font-size, 1.5rem);
+  line-height: var(--h3-line-height, 1.875rem);
+  letter-spacing: var(--h3-letter-spacing, -0.02em);
+  font-weight: var(--h3-font-weight, 700);
+  position: absolute;
+  left: 8.125rem;
+  top: 12.75rem;
+  width: 8.8125rem;
+  height: 2.1875rem;
+}
+.h-3-heading-title-in-two-lines3 {
+  color: var(--primary, #545f71);
+  text-align: left;
+  font-family: var(--h3-font-family, "Inter-Bold", sans-serif);
+  font-size: var(--h3-font-size, 1.5rem);
+  line-height: var(--h3-line-height, 1.875rem);
+  letter-spacing: var(--h3-letter-spacing, -0.02em);
+  font-weight: var(--h3-font-weight, 700);
+  position: absolute;
+  left: 6.9375rem;
+  top: 21.3125rem;
+  width: 11.25rem;
+}
+.most-fonts-have-a-particular-weight-which-corresponds-to-one-of-the-numbers-in-common-weight-name-mapping-however-some-fonts-called-variable-fonts-can-support-a-range-of-weights-with-a-more-or-less-fine-granularity-and-this-can-give-the-designer-a-much-closer-degree-of-control-over-the-chosen-weight {
+  color: var(--primary, #545f71);
+  text-align: center;
+  font-family: var(--body-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--body-font-size, 1rem);
+  line-height: var(--body-line-height, 1.375rem);
+  letter-spacing: var(--body-letter-spacing, -0.02em);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  left: 5.25rem;
+  top: 23.875rem;
+  width: 14.5625rem;
+}
+.image-152 {
+  width: 2.75rem;
+  height: 2.75rem;
+  position: absolute;
+  left: 13.5rem;
+  top: 49.25rem;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+  object-fit: cover;
+}
+.most-fonts-have-a-particular-weight-which-corresponds-to-one-of-the-numbers-in-common-weight-name-mapping-however-some-fonts-called-variable-fonts-can-support-a-range-of-weights-with-a-more-or-less-fine-granularity-and-this-can-give-the-designer-a-much-closer-degree-of-control-over-the-chosen-weight2 {
+  color: var(--primary, #545f71);
+  text-align: left;
+  font-family: var(--body-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--body-font-size, 1rem);
+  line-height: var(--body-line-height, 1.375rem);
+  letter-spacing: var(--body-letter-spacing, -0.02em);
+  font-weight: var(--body-font-weight, 400);
+  position: absolute;
+  left: 9rem;
+  top: 39rem;
+  width: 5.4375rem;
+}
+.free-icon-client-5894086-1 {
+  width: 3.8125rem;
+  height: 3.8125rem;
+  position: absolute;
+  left: 10.1875rem;
+  top: 32.5rem;
+  object-fit: cover;
+}
+.rectangle-8968 {
+  background: rgba(255, 255, 255, 0);
+  border-radius: 0.625rem;
+  border-style: solid;
+  border-color: #9c9696;
+  border-width: 0.0625rem;
+  width: 17.125rem;
+  height: 17.375rem;
+  position: absolute;
+  left: 3.5625rem;
+  top: 30.25rem;
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+}
+.h-3-heading-title-in-two-lines4 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: 1.8125rem;
+  top: 170.0625rem;
+}
+.i-phone-13-14-10 {
+  background: rgba(255, 255, 255, 0.95);
+  width: 100%;
+  height: 65.8125rem;
+  position: absolute;
+  left: 0rem;
+  top: 3.5rem;
+  overflow: hidden;
+}
+.h-3-heading-title-in-two-lines5 {
+  color: var(--primary, #545f71);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: 3.5625rem;
+  top: 4.5rem;
+  width: 16.3125rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.h-3-heading-title-in-two-lines6 {
+  color: var(--primary, #545f71);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: 3.5625rem;
+  top: 12.125rem;
+  width: 11.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.h-3-heading-title-in-two-lines7 {
+  color: var(--primary, #545f71);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: 3.5625rem;
+  top: 15.6875rem;
+  width: 11.25rem;
+}
+.h-3-heading-title-in-two-lines8 {
+  color: var(--primary, #545f71);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: 3.5625rem;
+  top: 19.75rem;
+  width: 11.25rem;
+}
+.h-3-heading-title-in-two-lines9 {
+  color: var(--primary, #545f71);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: 3.5625rem;
+  top: 23.625rem;
+  width: 11.25rem;
+}
+.h-3-heading-title-in-two-lines10 {
+  color: var(--primary, #545f71);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: 3.5625rem;
+  top: 27.875rem;
+  width: 11.25rem;
+}
+.h-3-heading-title-in-two-lines11 {
+  color: var(--primary, #545f71);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: 3.5625rem;
+  top: 32.125rem;
+  width: 11.25rem;
+}
+.h-3-heading-title-in-two-lines12 {
+  color: var(--primary, #545f71);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: 3.5625rem;
+  top: 36.375rem;
+  width: 11.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.chevron-down {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 81%;
+  top: 4.6875rem;
+  overflow: visible;
+}
+.chevron-down2 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 81%;
+  top: 8.1875rem;
+  overflow: visible;
+}
+.chevron-down3 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 81%;
+  top: 12.3125rem;
+  overflow: visible;
+}
+.chevron-down4 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 81%;
+  top: 15.625rem;
+  overflow: visible;
+}
+.chevron-down5 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 81%;
+  top: 19.75rem;
+  overflow: visible;
+}
+.chevron-down6 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 81%;
+  top: 23.625rem;
+  overflow: visible;
+}
+.chevron-down7 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 81%;
+  top: 27.875rem;
+  overflow: visible;
+}
+.chevron-down8 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 81%;
+  top: 32.125rem;
+  overflow: visible;
+}
+.chevron-down9 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 81%;
+  top: 36.375rem;
+  overflow: visible;
+}
+.line-86 {
+  margin-top: -0.0625rem;
+  border-style: solid;
+  border-color: #545f71;
+  border-width: 0.0625rem 0 0 0;
+  width: 80%;
+  height: 0rem;
+  position: absolute;
+  left: 2rem;
+  top: 2.875rem;
+  transform-origin: 0 0;
+  transform: rotate(0.017deg) scale(1, 1);
+}
+.line-87 {
+  margin-top: -0.0625rem;
+  border-style: solid;
+  border-color: #545f71;
+  border-width: 0.0625rem 0 0 0;
+  width: 80%;
+  height: 0rem;
+  position: absolute;
+  left: 2rem;
+  top: 41rem;
+  transform-origin: 0 0;
+  transform: rotate(0.017deg) scale(1, 1);
+}
+.h-3-heading-title-in-two-lines13 {
+  color: var(--primary, #545f71);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: 3.0625rem;
+  top: 43.8125rem;
+  width: 11.25rem;
+}
+.h-3-heading-title-in-two-lines14 {
+  color: var(--primary, #545f71);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: 3.0625rem;
+  top: 47.5625rem;
+  width: 11.25rem;
+}
+.h-3-heading-title-in-two-lines15 {
+  color: var(--wf-base-800, #2d3648);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 1.5rem;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  position: absolute;
+  left: 3.0625rem;
+  top: 51.3125rem;
+  width: 11.25rem;
+}
+.x {
+  height: 1.5rem;
+  position: absolute;
+  left: 81%;
+  top: 1rem;
+  overflow: visible;
+}
+.h-3-heading-title-in-two-lines16 {
+  color: var(--primary, #545f71);
+  text-align: left;
+  font-family: "Pretendard-Bold", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: absolute;
+  left: 3.5625rem;
+  top: 11.75rem;
+  width: 16.5rem;
+}

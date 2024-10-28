@@ -83,12 +83,10 @@ nav ul .dropdown a {
     font-weight: 600;
 }
 
-nav 
-
-.dropdown .submenu-company-introduction {
+nav .dropdown .submenu-company-introduction {
     display: none;
     position: absolute;
-    top: 42px;
+    top: 40px;
     transform: translateX(-33%);
     text-align: center;
     background: white;
@@ -118,7 +116,7 @@ nav
 .dropdown .submenu-carcare-service {
     display: none;
     position: absolute;
-    top: 42px;
+    top: 40px;
     transform: translateX(-24%);
     text-align: center;
     background: white;
@@ -148,7 +146,7 @@ nav
 .dropdown .submenu-product-service {
     display: none;
     position: absolute;
-    top: 42px;
+    top: 40px;
     transform: translateX(-28%);
     text-align: center;
     background: white;
@@ -178,7 +176,7 @@ nav
 .dropdown .submenu-language {
     display: none;
     position: absolute;
-    top: 42px;
+    top: 40px;
     transform: translateX(-27%);
     text-align: center;
     background: white;
@@ -218,6 +216,18 @@ header nav ul .submenu-language li a:hover {
     color: #007BFF; /* 드롭다운 링크 호버 색상 변경 */
 }
 
+.hamburger {
+    display: none; /* 기본 상태에서는 숨김 */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.hamburger-icon {
+    
+}
 
 /* 스크롤 시 헤더 스타일 (배경색 흰색) */
 .header.scrolled {
@@ -739,17 +749,23 @@ footer .logo {
 /* media query */
 
 /* 반응형 스타일 추가 */
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     .logo {
-        margin-left: 5rem;
+        margin-left: 20px;
     }
 
     nav ul {
-        margin-right: 5rem;
+        margin-right: 20px;
     }
 
-    nav ul li {
-        margin-left: 3rem;
+    nav ul .dropdown{
+        margin-left : 20px;
+        white-space: nowrap;
+    }
+
+    .nodropdown{
+        margin-left: 20px;
+        white-space: nowrap;
     }
 
     .hero-text h1 {
@@ -759,16 +775,14 @@ footer .logo {
     .hero-text p {
         font-size: 16px;
     }
+
 }
 
-
-@media (max-width:768px) {
+@media (max-width: 850px) {
     html,body {
         overflow-x: hidden;
     }
-}
 
-@media (max-width: 768px) {
     header {
         display: flex;
         flex-direction: column;
@@ -776,9 +790,9 @@ footer .logo {
         padding: 10px;
     }
 
-    .logo {
-        margin-left: 1rem;
-        margin-right: 1rem;
+    .logo{
+        top: 10px;
+        margin-left: 20px;
     }
 
     nav ul {
@@ -800,6 +814,10 @@ footer .logo {
         margin-top: 1rem;
     }
 
+    .hamburger{
+        display: block;
+    }
+
     header:hover nav ul {
         display: flex; /* 메뉴를 보이게 하면서 Flexbox로 정렬 */
     }
@@ -817,7 +835,7 @@ footer .logo {
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 850px){
     .main_txt>.tit .tt{
         font-size: 28px;
     }
@@ -827,7 +845,7 @@ footer .logo {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     .reason-section h2 {
         font-size: 24px;
         margin-bottom: 10px;
@@ -850,7 +868,7 @@ footer .logo {
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
     .reason-cards {
         flex-direction: row;
     }
@@ -861,7 +879,7 @@ footer .logo {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     .circle{
         font-size: 10px;
         width: 25px;
@@ -879,7 +897,7 @@ footer .logo {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
     .container-text {
         flex-direction: row;
         text-align: left;
@@ -894,7 +912,7 @@ footer .logo {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     .container-text {
         display: flex;
         flex-direction: column; /* 상하로 정렬 */
@@ -934,7 +952,7 @@ footer .logo {
     
 }
 
-@media (max-width:768px) {
+@media (max-width:850px) {
     .text-section {
         position: static;
         display: flex;
@@ -971,12 +989,12 @@ footer .logo {
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:850px) {
     .company-logo img {
         width: 100px;
         height: auto;
     }
-    
+
 }
 
 

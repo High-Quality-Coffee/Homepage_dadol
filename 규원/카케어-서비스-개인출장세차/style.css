@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .div,
 .div * {
   box-sizing: border-box;
@@ -9,15 +22,17 @@
   overflow: hidden;
 }
 .rectangle-8975 {
-  width: 1450px;
+  width: 100%;
   height: 689px;
   position: absolute;
   left: -9px;
   top: 1378px;
   overflow: visible;
+  border: none;
+  background-color: #ebebeb;
 }
 .image-131 {
-  width: 1440px;
+  width: 100vw;
   height: 749px;
   position: absolute;
   left: 0px;
@@ -345,7 +360,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
   position: absolute;
-  left: 599px;
+  left: calc(50% - 120px);
   top: 578px;
   width: 296px;
   height: 46px;
@@ -359,7 +374,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
   position: absolute;
-  left: 535px;
+  left: calc(50% - 9rem);
   top: 1537px;
 }
 .h-3-heading-title-in-two-lines23 {
@@ -371,7 +386,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
   position: absolute;
-  left: 180px;
+  left: calc(50% - 31rem);
   top: 2277px;
 }
 .most-fonts-have-a-particular-weight-which-corresponds-to-one-of-the-numbers-in-common-weight-name-mapping-however-some-fonts-called-variable-fonts-can-support-a-range-of-weights-with-a-more-or-less-fine-granularity-and-this-can-give-the-designer-a-much-closer-degree-of-control-over-the-chosen-weight3 {
@@ -383,7 +398,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
   position: absolute;
-  left: 47px;
+  left: calc(50% - 39.5rem);
   top: 2371px;
   width: 584px;
 }
@@ -396,7 +411,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
   position: absolute;
-  left: 60px;
+  left: calc(50% - 39rem);
   top: 2469px;
   width: 558px;
 }
@@ -409,7 +424,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
   position: absolute;
-  left: 549px;
+  left: calc(50% - 120px);
   top: 847px;
   width: 364px;
 }
@@ -435,7 +450,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
   position: absolute;
-  left: 294px;
+  left: calc(50% - 23rem);
   top: 920px;
   width: 869px;
   height: 26px;
@@ -449,7 +464,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
   position: absolute;
-  left: 237px;
+  left: calc(50% - 33.2rem);
   top: 1154px;
   width: 127px;
   height: 57px;
@@ -463,7 +478,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
   position: absolute;
-  left: 648px;
+  left: calc(50% - 0rem);
   top: 1148px;
   width: 179px;
   height: 116px;
@@ -477,7 +492,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
   position: absolute;
-  left: 1078px;
+  left: calc(50% - -33rem);
   top: 1142px;
   width: 148px;
   height: 51px;
@@ -491,7 +506,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
   position: absolute;
-  left: 164px;
+  left: calc(50% - 33.6rem);
   top: 1808px;
   width: 540px;
 }
@@ -504,7 +519,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
   position: absolute;
-  left: 830px;
+  left: calc(50% - -10rem);
   top: 1808px;
   width: 459px;
 }
@@ -549,7 +564,7 @@
   width: 75px;
   height: 77px;
   position: absolute;
-  left: 1114px;
+  left: calc(50% - -33rem);
   top: 1045px;
   object-fit: cover;
 }
@@ -557,7 +572,7 @@
   width: 61px;
   height: 70px;
   position: absolute;
-  left: 700px;
+  left: calc(50% - -1rem);
   top: 1052px;
   object-fit: cover;
 }
@@ -565,7 +580,7 @@
   width: 61px;
   height: 61px;
   position: absolute;
-  left: 279px;
+  left: calc(50% - 32.2rem);
   top: 1061px;
   object-fit: cover;
 }
@@ -578,7 +593,7 @@
   width: 274px;
   height: 278px;
   position: absolute;
-  left: 173px;
+  left: calc(50% - 39rem);
   top: 1025px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -591,7 +606,7 @@
   width: 274px;
   height: 278px;
   position: absolute;
-  left: 1015px;
+  left: calc(50% - -27rem);
   top: 1025px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -604,7 +619,7 @@
   width: 274px;
   height: 278px;
   position: absolute;
-  left: 594px;
+  left: calc(50% - 6rem);
   top: 1025px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -612,7 +627,7 @@
   width: 55px;
   height: 55px;
   position: absolute;
-  left: 412px;
+  left: calc(50% - 19rem);
   top: 1668px;
   object-fit: cover;
 }
@@ -620,7 +635,7 @@
   width: 69px;
   height: 70px;
   position: absolute;
-  left: 1025px;
+  left: calc(50% - -22rem);
   top: 1661px;
   object-fit: cover;
 }
@@ -629,7 +644,7 @@
   width: 631px;
   height: 377px;
   position: absolute;
-  left: 699px;
+  left: calc(50% - 2rem);
   top: 2195px;
   object-fit: cover;
 }
@@ -637,7 +652,7 @@
   width: 100px;
   height: 100px;
   position: absolute;
-  left: 470px;
+  left: calc(50% - 17rem);
   top: 1114px;
   object-fit: cover;
 }
@@ -645,7 +660,7 @@
   width: 100px;
   height: 100px;
   position: absolute;
-  left: 892px;
+  left: calc(50% - -16rem);
   top: 1114px;
   object-fit: cover;
 }
@@ -754,10 +769,9 @@
 }
 .background {
   background: var(--color-black-solid, #000000);
-  width: 1440px;
+  width: 100%;
   height: 216px;
   position: absolute;
-  left: calc(50% - 720px);
   top: 2687px;
 }
 .list {
@@ -867,7 +881,6 @@
   position: absolute;
   left: 711px;
   top: -45px;
-  width: 234.6px;
   height: 20.8px;
   display: flex;
   align-items: center;

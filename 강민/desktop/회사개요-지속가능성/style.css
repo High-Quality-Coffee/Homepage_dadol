@@ -9,16 +9,21 @@
 
   /* 모든 자식 요소를 중앙 정렬하기 위한 Flexbox 설정 */
   display: flex;
-  align-items: center; /* 수직 중앙 정렬 */
-  justify-content: center; /* 수평 중앙 정렬 */
-  flex-direction: column; /* 필요시 수직 정렬 (여러 요소가 쌓일 경우) */
-  text-align: center; /* 텍스트 중앙 정렬 */
+  align-items: center;
+  /* 수직 중앙 정렬 */
+  justify-content: center;
+  /* 수평 중앙 정렬 */
+  flex-direction: column;
+  /* 필요시 수직 정렬 (여러 요소가 쌓일 경우) */
+  text-align: center;
+  /* 텍스트 중앙 정렬 */
 }
 
 .group-33791 {
   position: absolute;
   inset: 0;
 }
+
 .div2 {
   width: 80%;
   height: 6607px;
@@ -29,6 +34,7 @@
   flex-direction: column;
   text-align: center;
 }
+
 .div3 {
   color: #000000;
   text-align: center;
@@ -44,6 +50,7 @@
   flex-direction: column;
   text-align: center;
 }
+
 .div4 {
   color: #000000;
   text-align: center;
@@ -52,7 +59,7 @@
   letter-spacing: -0.02em;
   font-weight: 600;
   position: absolute;
-  
+
   top: 1484px;
   width: 600px;
   display: flex;
@@ -61,6 +68,7 @@
   flex-direction: column;
   text-align: center;
 }
+
 .group-33695 {
   display: flex;
   align-items: center;
@@ -70,6 +78,7 @@
   position: absolute;
   inset: 0;
 }
+
 .header-6 {
   color: #000000;
   text-align: left;
@@ -84,11 +93,13 @@
   align-items: flex-end;
   justify-content: flex-start;
 }
+
 ._4 {
   width: 1138px;
   height: 493px;
   position: static;
 }
+
 .img {
   width: 370px;
   height: 493px;
@@ -97,11 +108,13 @@
   top: 2255px;
   overflow: visible;
 }
+
 .text {
   width: 512px;
   height: 58px;
   position: static;
 }
+
 .div5 {
   color: #000000;
   text-align: left;
@@ -120,6 +133,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-s-standard-dummy-text-ever-since-the-1500-s-when-an-unknown-printer-took-a-galley-of-type-and-scrambled-it-to-make-a-type-specimen-book {
   color: #000000;
   text-align: left;
@@ -138,10 +152,12 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .group-33697 {
   position: absolute;
   inset: 0;
 }
+
 .header-62 {
   color: #000000;
   text-align: left;
@@ -156,6 +172,7 @@
   align-items: flex-end;
   justify-content: flex-start;
 }
+
 .img2 {
   width: 370px;
   height: 493px;
@@ -164,6 +181,7 @@
   top: 3420px;
   overflow: visible;
 }
+
 .div6 {
   color: #000000;
   text-align: left;
@@ -182,6 +200,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-s-standard-dummy-text-ever-since-the-1500-s-when-an-unknown-printer-took-a-galley-of-type-and-scrambled-it-to-make-a-type-specimen-book-it-has-survived-not-only-five-centuries-but-also-the-leap-into-electronic-typesetting-remaining-essentially-unchanged-it-was-popularised-in-the-1960-s-with-the-release-of-letraset-sheets-containing-lorem-ipsum-passages-and-more-recently-with-desktop-publishing-software-like-aldus-page-maker-including-versions-of-lorem-ipsum {
   color: #000000;
   text-align: left;
@@ -200,10 +219,12 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .group-33696 {
   position: absolute;
   inset: 0;
 }
+
 .header-63 {
   color: #000000;
   text-align: right;
@@ -219,6 +240,7 @@
   align-items: flex-end;
   justify-content: flex-end;
 }
+
 .img3 {
   width: 560px;
   height: 493px;
@@ -227,11 +249,13 @@
   top: 2837px;
   overflow: visible;
 }
+
 .text2 {
   width: 415px;
   height: 58px;
   position: static;
 }
+
 .div7 {
   color: #000000;
   text-align: right;
@@ -250,6 +274,7 @@
   align-items: center;
   justify-content: flex-end;
 }
+
 .lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-s-standard-dummy-text-ever-since-the-1500-s-when-an-unknown-printer-took-a-galley-of-type-and-scrambled-it-to-make-a-type-specimen-book2 {
   color: #000000;
   text-align: right;
@@ -268,6 +293,7 @@
   align-items: center;
   justify-content: flex-end;
 }
+
 .image-135 {
   width: 1440px;
   height: 157px;
@@ -276,10 +302,12 @@
   top: 7819px;
   object-fit: cover;
 }
+
 .group-1782 {
   position: absolute;
   inset: 0;
 }
+
 .div8 {
   color: #414141;
   text-align: center;
@@ -291,6 +319,7 @@
   left: 622px;
   top: 5805px;
 }
+
 .image-1 {
   width: 136px;
   height: 71px;
@@ -299,6 +328,7 @@
   top: 5912px;
   object-fit: cover;
 }
+
 .image-2 {
   width: 209px;
   height: 73px;
@@ -307,6 +337,7 @@
   top: 5910px;
   object-fit: cover;
 }
+
 .image-3 {
   width: 120px;
   height: 60.5px;
@@ -315,6 +346,7 @@
   top: 5917px;
   object-fit: cover;
 }
+
 .image-4 {
   width: 120px;
   height: 73.56px;
@@ -323,6 +355,7 @@
   top: 5912px;
   object-fit: cover;
 }
+
 .image-5 {
   width: 120px;
   height: 97.1px;
@@ -331,6 +364,7 @@
   top: 5897px;
   object-fit: cover;
 }
+
 .image-6 {
   width: 156px;
   height: 80px;
@@ -339,6 +373,7 @@
   top: 5999px;
   object-fit: cover;
 }
+
 .hubble {
   width: 152px;
   height: 82px;
@@ -347,6 +382,7 @@
   top: 5998px;
   object-fit: cover;
 }
+
 .income {
   width: 164px;
   height: 97px;
@@ -355,6 +391,7 @@
   top: 6084px;
   object-fit: cover;
 }
+
 .lazada {
   width: 135px;
   height: 83px;
@@ -363,6 +400,7 @@
   top: 6093px;
   object-fit: cover;
 }
+
 .unair {
   width: 204px;
   height: 92px;
@@ -371,6 +409,7 @@
   top: 6087px;
   object-fit: cover;
 }
+
 .jawa-pos {
   width: 228px;
   height: 79px;
@@ -379,6 +418,7 @@
   top: 6094px;
   object-fit: cover;
 }
+
 .cbn {
   width: 162px;
   height: 105px;
@@ -387,6 +427,7 @@
   top: 5985px;
   object-fit: cover;
 }
+
 .ciputra {
   width: 212px;
   height: 75px;
@@ -395,6 +436,7 @@
   top: 5998px;
   object-fit: cover;
 }
+
 .header-64 {
   color: #000000;
   text-align: left;
@@ -409,15 +451,18 @@
   align-items: flex-end;
   justify-content: flex-start;
 }
+
 .group-33711 {
   position: absolute;
   inset: 0;
 }
+
 .text3 {
   width: 470px;
   height: 58px;
   position: static;
 }
+
 .div9 {
   color: #000000;
   text-align: left;
@@ -435,6 +480,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .div10 {
   color: #000000;
   text-align: left;
@@ -452,6 +498,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .div11 {
   color: #000000;
   text-align: left;
@@ -469,6 +516,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .div12 {
   color: #000000;
   text-align: left;
@@ -486,6 +534,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .div13 {
   color: #000000;
   text-align: left;
@@ -503,6 +552,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .div14 {
   color: #000000;
   text-align: left;
@@ -520,6 +570,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .div15 {
   color: #000000;
   text-align: left;
@@ -537,6 +588,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .div16 {
   color: #000000;
   text-align: left;
@@ -554,6 +606,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .div17 {
   color: #000000;
   text-align: left;
@@ -571,6 +624,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .div18 {
   color: #000000;
   text-align: left;
@@ -588,6 +642,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .header-8 {
   color: #292929;
   text-align: left;
@@ -602,15 +657,14 @@
   align-items: flex-end;
   justify-content: flex-start;
 }
+
 .line-41 {
   margin-top: -3px;
   border-width: 3px 0 0 0;
   border-style: solid;
-  border-image: linear-gradient(
-    90deg,
-    rgba(41, 41, 41, 0.2) 77.49999761581421%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  border-image: linear-gradient(90deg,
+      rgba(41, 41, 41, 0.2) 77.49999761581421%,
+      rgba(0, 0, 0, 0) 100%);
   border-image-slice: 1;
   width: 1174px;
   height: 0px;
@@ -620,6 +674,7 @@
   transform-origin: 0 0;
   transform: rotate(89.949deg) scale(1, 1);
 }
+
 .header-10 {
   color: #292929;
   text-align: left;
@@ -634,6 +689,7 @@
   align-items: flex-end;
   justify-content: flex-start;
 }
+
 .line-57 {
   margin-top: -1px;
   border-style: solid;
@@ -647,11 +703,13 @@
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
+
 .group-33709 {
   width: 10px;
   height: 10px;
   position: static;
 }
+
 .ellipse-1439 {
   background: linear-gradient(to left, #292929, #292929),
     linear-gradient(to left, #d9d9d9, #d9d9d9);
@@ -662,6 +720,7 @@
   left: 467px;
   top: 5214px;
 }
+
 .ellipse-1440 {
   background: linear-gradient(to left, #ffffff, #ffffff),
     linear-gradient(to left, #ffffff, #ffffff);
@@ -675,6 +734,7 @@
   left: 469.5px;
   top: 5216.5px;
 }
+
 .line-46 {
   margin-top: -1px;
   border-style: solid;
@@ -688,6 +748,7 @@
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
+
 .line-43 {
   margin-top: -1px;
   border-style: solid;
@@ -699,6 +760,7 @@
   left: 711px;
   top: 4576.5px;
 }
+
 .line-47 {
   margin-top: -1px;
   border-style: solid;
@@ -710,6 +772,7 @@
   left: 711px;
   top: 4636px;
 }
+
 .line-48 {
   margin-top: -1px;
   border-style: solid;
@@ -721,6 +784,7 @@
   left: 712px;
   top: 4695px;
 }
+
 .line-49 {
   margin-top: -1px;
   border-style: solid;
@@ -732,6 +796,7 @@
   left: 712px;
   top: 4754px;
 }
+
 .div19 {
   color: #000000;
   text-align: left;
@@ -749,6 +814,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .div20 {
   color: #000000;
   text-align: left;
@@ -766,6 +832,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .div21 {
   color: #000000;
   text-align: left;
@@ -783,6 +850,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .div22 {
   color: #000000;
   text-align: left;
@@ -800,6 +868,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .line-58 {
   margin-top: -1px;
   border-style: solid;
@@ -811,6 +880,7 @@
   left: 711px;
   top: 5277.5px;
 }
+
 .line-59 {
   margin-top: -1px;
   border-style: solid;
@@ -822,6 +892,7 @@
   left: 711px;
   top: 5337px;
 }
+
 .line-60 {
   margin-top: -1px;
   border-style: solid;
@@ -833,6 +904,7 @@
   left: 712px;
   top: 5396px;
 }
+
 .line-61 {
   margin-top: -1px;
   border-style: solid;
@@ -844,6 +916,7 @@
   left: 712px;
   top: 5455px;
 }
+
 .line-50 {
   margin-top: -1px;
   border-style: solid;
@@ -855,6 +928,7 @@
   left: 591px;
   top: 4850px;
 }
+
 .line-51 {
   margin-top: -1px;
   border-style: solid;
@@ -866,6 +940,7 @@
   left: 591px;
   top: 4909.5px;
 }
+
 .line-52 {
   margin-top: -1px;
   border-style: solid;
@@ -877,6 +952,7 @@
   left: 592px;
   top: 4968.5px;
 }
+
 .line-53 {
   margin-top: -1px;
   border-style: solid;
@@ -888,6 +964,7 @@
   left: 592px;
   top: 5027.5px;
 }
+
 .line-55 {
   margin-top: -1px;
   border-style: solid;
@@ -899,6 +976,7 @@
   left: 592px;
   top: 5087px;
 }
+
 .line-56 {
   margin-top: -1px;
   border-style: solid;
@@ -910,11 +988,13 @@
   left: 592px;
   top: 5146px;
 }
+
 .group-33706 {
   width: 20px;
   height: 20px;
   position: static;
 }
+
 .ellipse-14392 {
   background: linear-gradient(to left, #292929, #292929),
     linear-gradient(to left, #d9d9d9, #d9d9d9);
@@ -925,6 +1005,7 @@
   left: 702px;
   top: 4488px;
 }
+
 .ellipse-14402 {
   background: linear-gradient(to left, #ffffff, #ffffff),
     linear-gradient(to left, #ffffff, #ffffff);
@@ -938,11 +1019,13 @@
   left: 707px;
   top: 4493px;
 }
+
 .group-33707 {
   width: 10px;
   height: 10px;
   position: static;
 }
+
 .ellipse-14393 {
   background: linear-gradient(to left, #292929, #292929),
     linear-gradient(to left, #d9d9d9, #d9d9d9);
@@ -953,6 +1036,7 @@
   left: 587px;
   top: 4543px;
 }
+
 .ellipse-14403 {
   background: linear-gradient(to left, #ffffff, #ffffff),
     linear-gradient(to left, #ffffff, #ffffff);
@@ -966,11 +1050,13 @@
   left: 589.5px;
   top: 4545.5px;
 }
+
 .group-33710 {
   width: 328px;
   height: 39px;
   position: static;
 }
+
 .header-9 {
   color: #292929;
   text-align: left;
@@ -985,6 +1071,7 @@
   align-items: flex-end;
   justify-content: flex-start;
 }
+
 .line-54 {
   margin-top: -1px;
   border-style: solid;
@@ -998,11 +1085,13 @@
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
+
 .group-33708 {
   width: 10px;
   height: 10px;
   position: static;
 }
+
 .ellipse-14394 {
   background: linear-gradient(to left, #292929, #292929),
     linear-gradient(to left, #d9d9d9, #d9d9d9);
@@ -1013,6 +1102,7 @@
   left: 912px;
   top: 4806px;
 }
+
 .ellipse-14404 {
   background: linear-gradient(to left, #ffffff, #ffffff),
     linear-gradient(to left, #ffffff, #ffffff);
@@ -1026,6 +1116,7 @@
   left: 914.5px;
   top: 4808.5px;
 }
+
 .background {
   background: var(--color-black-solid, #000000);
   width: 100vw;
@@ -1034,6 +1125,7 @@
   left: 0px;
   top: 2000px;
 }
+
 .list {
   width: 1192px;
   position: absolute;
@@ -1041,10 +1133,12 @@
   bottom: 79.81px;
   top: 119px;
 }
+
 .group-1437255937 {
   position: absolute;
   inset: 0;
 }
+
 .item {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -1062,6 +1156,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item2 {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -1079,6 +1174,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item-2022-2199 {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -1096,6 +1192,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item-2022-21992 {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -1113,6 +1210,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item-02-465-5077 {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -1130,6 +1228,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item-email-openmile-openmile-co-kr {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -1147,6 +1246,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item-copyright-c-openmile-co-ltd-all-rights-reserved {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -1165,6 +1265,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .list2 {
   padding: 8px 0px 8px 0px;
   display: flex;
@@ -1178,6 +1279,7 @@
   left: 1832px;
   bottom: 15.81px;
 }
+
 .frame-5 {
   background: linear-gradient(to left, #ffffff, #ffffff);
   border-radius: 2px;
@@ -1192,6 +1294,7 @@
   overflow: hidden;
   object-fit: cover;
 }
+
 .frame-2 {
   background: linear-gradient(to left, #ffffff, #ffffff);
   border-radius: 2px;
@@ -1205,6 +1308,7 @@
   top: 0px;
   overflow: hidden;
 }
+
 .div23 {
   color: #ffffff;
   text-align: left;
@@ -1212,6 +1316,7 @@
   left: 20%;
   top: 629px;
 }
+
 .div-23-span {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -1219,6 +1324,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .div-23-span2 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -1226,6 +1332,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .div-23-span3 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -1233,6 +1340,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .group-1776 {
   height: auto;
   position: absolute;
@@ -1253,6 +1361,7 @@
   left: 485px;
   top: 114px;
 }
+
 .frame-6 {
   background: linear-gradient(to left, #ffffff, #ffffff);
   border-radius: 2px;
@@ -1271,7 +1380,8 @@
 /* 헤더 기본 설정 */
 .header {
   width: 100vw;
-  background-image: url('header-background.jpg'); /* 배경 이미지 */
+  background-image: url('header-background.jpg');
+  /* 배경 이미지 */
   background-size: cover;
   background-position: center;
   padding: 20px 20%;
@@ -1328,7 +1438,8 @@
 }
 
 .dropdown-menu {
-  display: none; /* 기본적으로 숨김 */
+  display: none;
+  /* 기본적으로 숨김 */
   position: absolute;
   border-radius: 4px;
   padding: 10px 0;
@@ -1414,4 +1525,338 @@
 /* 드롭다운 메뉴 표시 */
 .language-dropdown:hover .dropdown-content {
   display: block;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1000;
+  background-color: transparent;
+  /* 기본 배경색을 투명으로 설정 */
+  transition: ba-color 0.3s ease;
+  /* 배경색 전환 효과 */
+}
+
+header:hover,
+nav ul li:hover~header {
+  background-color: white;
+  /* 헤더 배경색을 흰색으로 변경 */
+}
+
+header:hover a,
+header:hover nav ul .dropdown a,
+/* 드롭다운 a 태그도 검은색으로 변경 */
+header:hover .logo,
+nav ul li:hover~header a,
+nav ul li:hover~header nav ul .dropdown a,
+nav ul li:hover~header .logo {
+  color: black;
+  /* 헤더에 마우스를 올렸을 때 모든 a 태그의 폰트 색상을 검은색으로 변경 */
+}
+
+
+.logo {
+  font-family: 'Pretendard';
+  position: absolute;
+  left: 0;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  margin-left: 3rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 10px;
+}
+
+nav ul .dropdown {
+  margin-left: 4rem;
+}
+
+.dropdown:hover header {
+  background-color: #fff;
+  /* 헤더 배경색 흰색으로 변경 */
+}
+
+.nodropdown {
+  margin-left: 4rem;
+}
+
+.nodropdown a {
+  font-family: 'Pretendard';
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav ul .dropdown a {
+  font-family: 'pretendard';
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+nav .dropdown .submenu-company-introduction {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-33%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+  width: 10rem;
+}
+
+.dropdown:hover .submenu-company-introduction {
+  display: block;
+}
+
+.submenu-company-introduction li {
+  width: 100%;
+}
+
+.submenu-company-introduction li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown .submenu-carcare-service {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-24%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+  width: 10rem;
+}
+
+.dropdown:hover .submenu-carcare-service {
+  display: block;
+}
+
+.submenu-carcare-service li {
+  width: 100%;
+}
+
+.submenu-carcare-service li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown .submenu-product-service {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-28%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+  width: 10rem;
+}
+
+.dropdown:hover .submenu-product-service {
+  display: block;
+}
+
+.submenu-product-service li {
+  width: 100%;
+}
+
+.submenu-product-service li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown .submenu-language {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-27%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+}
+
+.dropdown:hover .submenu-language {
+  display: block;
+}
+
+.submenu-language li {
+  width: 100%;
+}
+
+.submenu-language li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+header nav ul .submenu-company-introduction li a,
+header nav ul .submenu-carcare-service li a,
+header nav ul .submenu-product-service li a,
+header nav ul .submenu-language li a {
+  color: #333;
+  /* 드롭다운 링크 색상 */
+}
+
+header nav ul .submenu-company-introduction li a:hover,
+header nav ul .submenu-carcare-service li a:hover,
+header nav ul .submenu-product-service li a:hover,
+header nav ul .submenu-language li a:hover {
+  color: #007BFF;
+  /* 드롭다운 링크 호버 색상 변경 */
+}
+
+.hamburger {
+  display: none;
+  /* 기본 상태에서는 숨김 */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* 스크롤 시 헤더 스타일 (배경색 흰색) */
+.header.scrolled {
+  background-color: white;
+  /* 스크롤 시 배경색 흰색 */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  /* 살짝 그림자 */
+  color: black;
+  /* 로고 및 텍스트 색상 */
+}
+
+/* 스크롤된 상태에서 링크 색상 변경 */
+.header.scrolled nav ul li a {
+  color: black;
+  /* 스크롤 후 텍스트 색상 변경 */
+}
+
+/* 반응형 스타일 추가 */
+@media (max-width: 1300px) {
+  .logo {
+    margin-left: 20px;
+  }
+
+  nav ul {
+    margin-right: 20px;
+  }
+
+  nav ul .dropdown {
+    margin-left: 20px;
+    white-space: nowrap;
+  }
+
+  .nodropdown {
+    margin-left: 20px;
+    white-space: nowrap;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 850px) {
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: centers;
+    padding: 10px;
+  }
+
+  .logo {
+    top: 10px;
+    margin-left: 20px;
+  }
+
+  nav ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  nav ul li {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  header:hover nav ul {
+    display: flex;
+    /* 메뉴를 보이게 하면서 Flexbox로 정렬 */
+  }
+
+  .hero {
+    height: 80vh;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+}
+
+a:visited {
+  text-decoration: none;
+  /* 링크가 변하지 않도록 텍스트 장식도 없앰 */
 }

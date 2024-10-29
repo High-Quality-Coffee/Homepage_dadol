@@ -1,159 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./vars.css" />
-    <link rel="stylesheet" href="./style.css" />
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const dropdownToggles = document.querySelectorAll(".dropdown-toggle");
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./vars.css" />
+  <link rel="stylesheet" href="./style.css" />
 
-        dropdownToggles.forEach((toggle) => {
-          toggle.addEventListener("click", function (event) {
-            event.stopPropagation(); // 이벤트가 버블링되는 것을 방지
-            const dropdownClass = this.getAttribute("data-dropdown");
-            const dropdownMenu = document.querySelector(`.${dropdownClass}`);
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const dropdownToggles = document.querySelectorAll(".dropdown-toggle");
 
-            // 다른 모든 드롭다운 메뉴 닫기
-            document.querySelectorAll(".dropdown-menu").forEach((menu) => {
-              if (menu !== dropdownMenu) {
-                menu.style.display = "none";
-              }
-            });
+      dropdownToggles.forEach((toggle) => {
+        toggle.addEventListener("click", function (event) {
+          event.stopPropagation(); // 이벤트가 버블링되는 것을 방지
+          const dropdownClass = this.getAttribute("data-dropdown");
+          const dropdownMenu = document.querySelector(`.${dropdownClass}`);
 
-            // 현재 드롭다운 메뉴 토글
-            dropdownMenu.style.display =
-              dropdownMenu.style.display === "block" ? "none" : "block";
-          });
-        });
-
-        // 페이지 어디든 클릭하면 드롭다운 닫기
-        document.addEventListener("click", function () {
+          // 다른 모든 드롭다운 메뉴 닫기
           document.querySelectorAll(".dropdown-menu").forEach((menu) => {
-            menu.style.display = "none";
+            if (menu !== dropdownMenu) {
+              menu.style.display = "none";
+            }
           });
+
+          // 현재 드롭다운 메뉴 토글
+          dropdownMenu.style.display =
+            dropdownMenu.style.display === "block" ? "none" : "block";
         });
       });
-    </script>
 
-    <style>
-      a,
-      button,
-      input,
-      select,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        border: none;
-        text-decoration: none;
-        background: none;
+      // 페이지 어디든 클릭하면 드롭다운 닫기
+      document.addEventListener("click", function () {
+        document.querySelectorAll(".dropdown-menu").forEach((menu) => {
+          menu.style.display = "none";
+        });
+      });
+    });
+  </script>
 
-        -webkit-font-smoothing: antialiased;
-      }
+  <style>
+    a,
+    button,
+    input,
+    select,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      border: none;
+      text-decoration: none;
+      background: none;
 
-      menu,
-      ol,
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="div">
-      <header class="header">
-        <div class="header-inner">
-          <!-- 로고 -->
-          <div class="logo">DADOL</div>
+      -webkit-font-smoothing: antialiased;
+    }
 
-          <!-- 네비게이션 메뉴 -->
-          <nav class="nav-menu">
-            <div class="menu-row">
-              <!-- 드롭다운 메뉴 (회사개요) -->
-              <div class="dropdown">
-                <button
-                  class="dropdown-toggle"
-                  data-dropdown="dropdown-company"
-                >
-                  회사개요
-                </button>
-                <div class="dropdown-menu dropdown-company">
-                  <a href="#">지속 가능성</a>
-                  <a href="../회사개요-조직 및 사업장/index.html">조직 및 사업장</a>
-                  <a href="../회사개요-인증/index.html">인증</a>
-                  <a href="../회사개요-언론보도/index.html">언론보도</a>
-                </div>
+    menu,
+    ol,
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="div">
+    <header class="header">
+      <div class="header-inner">
+        <!-- 로고 -->
+        <div class="logo">DADOL</div>
+
+        <!-- 네비게이션 메뉴 -->
+        <nav class="nav-menu">
+          <div class="menu-row">
+            <!-- 드롭다운 메뉴 (회사개요) -->
+            <div class="dropdown">
+              <button class="dropdown-toggle" data-dropdown="dropdown-company">
+                회사개요
+              </button>
+              <div class="dropdown-menu dropdown-company">
+                <a href="#">지속 가능성</a>
+                <a href="../회사개요-조직 및 사업장/index.html">조직 및 사업장</a>
+                <a href="../회사개요-인증/index.html">인증</a>
+                <a href="../회사개요-언론보도/index.html">언론보도</a>
               </div>
-
-              <!-- 드롭다운 메뉴 (카케어서비스) -->
-              <div class="dropdown">
-                <button
-                  class="dropdown-toggle"
-                  data-dropdown="dropdown-car-service"
-                >
-                  카케어서비스
-                </button>
-                <div class="dropdown-menu dropdown-car-service">
-                  <a href="../../../규원/desktop/카케어-서비스-개인출장세차/index.html">개인출장세차</a>
-                  <a href="../../../규원/desktop/카케어-서비스-B2B세차/index.html">B2B세차</a>
-                  <a href="../../../규원/desktop/카케어-서비스-디지털키/index.html">디지털키</a>
-                </div>
-              </div>
-
-              <!-- 드롭다운 메뉴 (제조서비스) -->
-              <div class="dropdown">
-                <button
-                  class="dropdown-toggle"
-                  data-dropdown="dropdown-manufacture"
-                >
-                  제조서비스
-                </button>
-                <div class="dropdown-menu dropdown-manufacture">
-                  <a href="../../../민지/desktop/Service-print/index.html">3D프린팅</a>
-                  <a href="../../../민지/desktop/Service-pcb/index.html">PCB</a>
-                  <a href="../../../민지/desktop/Service-software/index.html">소프트웨어</a>
-                </div>
-              </div>
-
-              <!-- 나머지 메뉴 -->
-              <a href="#">쇼핑몰</a>
-              <a href="../../../대연/desktop/서포트/index.html">서포트</a>
-              <a href="../레퍼런스/index.html">레퍼런스</a>
-              <a href="../../../소연/desktop/newsRoom.html">뉴스룸</a>
-              <a href="../../../소연/desktop/blog.html">블로그</a>
-              <a href="../../../대연/desktop/채용/index.html">채용</a>
             </div>
-          </nav>
 
-          <!-- 언어 선택 드롭다운 -->
-          <div class="language-dropdown">
-            <button class="dropdown-button">한국어 ▾</button>
-            <div class="dropdown-content">
-              <a href="#">English</a>
-              <a href="#">中文</a>
+            <!-- 드롭다운 메뉴 (카케어서비스) -->
+            <div class="dropdown">
+              <button class="dropdown-toggle" data-dropdown="dropdown-car-service">
+                카케어서비스
+              </button>
+              <div class="dropdown-menu dropdown-car-service">
+                <a href="../../../규원/desktop/카케어-서비스-개인출장세차/index.html">개인출장세차</a>
+                <a href="../../../규원/desktop/카케어-서비스-B2B세차/index.html">B2B세차</a>
+                <a href="../../../규원/desktop/카케어-서비스-디지털키/index.html">디지털키</a>
+              </div>
             </div>
+
+            <!-- 드롭다운 메뉴 (제조서비스) -->
+            <div class="dropdown">
+              <button class="dropdown-toggle" data-dropdown="dropdown-manufacture">
+                제조서비스
+              </button>
+              <div class="dropdown-menu dropdown-manufacture">
+                <a href="../../../민지/desktop/Service-print/index.html">3D프린팅</a>
+                <a href="../../../민지/desktop/Service-pcb/index.html">PCB</a>
+                <a href="../../../민지/desktop/Service-software/index.html">소프트웨어</a>
+              </div>
+            </div>
+
+            <!-- 나머지 메뉴 -->
+            <a href="#">쇼핑몰</a>
+            <a href="../../../대연/desktop/서포트/index.html">서포트</a>
+            <a href="../레퍼런스/index.html">레퍼런스</a>
+            <a href="../../../소연/desktop/newsRoom.html">뉴스룸</a>
+            <a href="../../../소연/desktop/blog.html">블로그</a>
+            <a href="../../../대연/desktop/채용/index.html">채용</a>
+          </div>
+        </nav>
+
+        <!-- 언어 선택 드롭다운 -->
+        <div class="language-dropdown">
+          <button class="dropdown-button">한국어 ▾</button>
+          <div class="dropdown-content">
+            <a href="#">English</a>
+            <a href="#">中文</a>
           </div>
         </div>
-      </header>
-      <div
-      class="frame-2"
-      style="
+      </div>
+    </header>
+    <div class="frame-2" style="
         background: url(frame-20.png) center;
         background-size: cover;
         background-repeat: no-repeat;
-      "
-    >
+      ">
       <div class="div23">
         <span>
           <span class="div-23-span">
@@ -170,231 +160,229 @@
       </div>
       <img class="group-1776" src="group-17760.svg" />
     </div>
-      <div class="div2">
-        <div class="div3">
-          다돌은 자동차 공간을 활용하여 고객에게
-          <br />
-          새로운 가치를 제공합니다.
-        </div>
-        <div class="div4">
-          다돌은 고객과 기업의 차량을 관리하며, &#039;커넥티드 키&#039;를 통해
-          투명한 세차 과정과
-          <br />
-          안전한 차량 인도를 보장하는 스마트 세차 서비스를 제공합니다.
-          <br />
-          <br />
-          전국적으로 세차 전문가를 양성해 새로운 세차 시장을 선도하고
-          <br />
-          지속 가능한 일자리를 창출하고 있습니다.
-        </div>
-        <div class="header-6">MISSION</div>
-        <div class="_4">
-          <img class="img" src="img0.svg" />
-          <div class="text">
-            <div class="div5">
-              자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
-            </div>
-          </div>
-          <div class="text">
-            <div
-              class="lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-s-standard-dummy-text-ever-since-the-1500-s-when-an-unknown-printer-took-a-galley-of-type-and-scrambled-it-to-make-a-type-specimen-book"
-            >
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&#039;s standard dummy
-              text ever since the 1500s, when an unknown printer took a galley
-              of type and scrambled it to make a type specimen book.
-            </div>
-          </div>
-        </div>
-        <div class="header-62">VALUE</div>
-        <div class="_4">
-          <img class="img2" src="img1.svg" />
-          <div class="text">
-            <div class="div6">
-              자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
-            </div>
-          </div>
-        </div>
-        <div
-          class="lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-s-standard-dummy-text-ever-since-the-1500-s-when-an-unknown-printer-took-a-galley-of-type-and-scrambled-it-to-make-a-type-specimen-book-it-has-survived-not-only-five-centuries-but-also-the-leap-into-electronic-typesetting-remaining-essentially-unchanged-it-was-popularised-in-the-1960-s-with-the-release-of-letraset-sheets-containing-lorem-ipsum-passages-and-more-recently-with-desktop-publishing-software-like-aldus-page-maker-including-versions-of-lorem-ipsum"
-        >
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry&#039;s standard dummy text
-          ever since the 1500s, when an unknown printer took a galley of type
-          and scrambled it to make a type specimen book. It has survived not
-          only five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-          <br />
-        </div>
-        <div class="header-63">VISION</div>
-        <div class="_4">
-          <img class="img3" src="img2.svg" />
-          <div class="text2">
-            <div class="div7">자동차와 공간,더 큰 가치</div>
-          </div>
-        </div>
-        <div
-          class="lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-s-standard-dummy-text-ever-since-the-1500-s-when-an-unknown-printer-took-a-galley-of-type-and-scrambled-it-to-make-a-type-specimen-book2"
-        >
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry&#039;s standard dummy text
-          ever since the 1500s, when an unknown printer took a galley of type
-          and scrambled it to make a type specimen book.
-        </div>
-
-        <div class="div8">주요 고객사</div>
-        
-        <img class="image-1" src="image-10.png" />
-        <img class="image-2" src="image-20.png" />
-        <img class="image-3" src="image-30.png" />
-        <img class="image-4" src="image-40.png" />
-        <img class="image-5" src="image-50.png" />
-        <img class="image-6" src="image-60.png" />
-        <img class="hubble" src="hubble0.png" />
-        <img class="income" src="income0.png" />
-        <img class="lazada" src="lazada0.png" />
-        <img class="unair" src="unair0.png" />
-        <img class="jawa-pos" src="jawa-pos0.png" />
-        <img class="cbn" src="cbn0.png" />
-        <img class="ciputra" src="ciputra0.png" />
-        <div class="header-64">History</div>
-        <div class="text3">
-          <div class="div9">
+    <div class="div2">
+      <div class="div3">
+        다돌은 자동차 공간을 활용하여 고객에게
+        <br />
+        새로운 가치를 제공합니다.
+      </div>
+      <div class="div4">
+        다돌은 고객과 기업의 차량을 관리하며, &#039;커넥티드 키&#039;를 통해
+        투명한 세차 과정과
+        <br />
+        안전한 차량 인도를 보장하는 스마트 세차 서비스를 제공합니다.
+        <br />
+        <br />
+        전국적으로 세차 전문가를 양성해 새로운 세차 시장을 선도하고
+        <br />
+        지속 가능한 일자리를 창출하고 있습니다.
+      </div>
+      <div class="header-6">MISSION</div>
+      <div class="_4">
+        <img class="img" src="img0.svg" />
+        <div class="text">
+          <div class="div5">
             자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
           </div>
         </div>
-        <div class="text3">
-          <div class="div10">
-            자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
+        <div class="text">
+          <div
+            class="lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-s-standard-dummy-text-ever-since-the-1500-s-when-an-unknown-printer-took-a-galley-of-type-and-scrambled-it-to-make-a-type-specimen-book">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry&#039;s standard dummy
+            text ever since the 1500s, when an unknown printer took a galley
+            of type and scrambled it to make a type specimen book.
           </div>
-        </div>
-        <div class="text3">
-          <div class="div11">
-            자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
-          </div>
-        </div>
-        <div class="text3">
-          <div class="div12">
-            자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
-          </div>
-        </div>
-        <div class="text3">
-          <div class="div13">
-            자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
-          </div>
-        </div>
-        <div class="text3">
-          <div class="div14">
-            자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
-          </div>
-        </div>
-        <div class="text3">
-          <div class="div15">
-            자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
-          </div>
-        </div>
-        <div class="text3">
-          <div class="div16">
-            자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
-          </div>
-        </div>
-        <div class="text3">
-          <div class="div17">
-            자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
-          </div>
-        </div>
-        <div class="text3">
-          <div class="div18">
-            자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
-          </div>
-        </div>
-        <div class="header-8">2024</div>
-        <div class="line-41"></div>
-        <div class="header-10">2022</div>
-        <div class="line-57"></div>
-        <div class="group-33709">
-          <div class="ellipse-1439"></div>
-          <div class="ellipse-1440"></div>
-        </div>
-        <div class="line-46"></div>
-        <div class="line-43"></div>
-        <div class="line-47"></div>
-        <div class="line-48"></div>
-        <div class="line-49"></div>
-        <div class="text3">
-          <div class="div19">
-            자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
-          </div>
-        </div>
-        <div class="text3">
-          <div class="div20">
-            자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
-          </div>
-        </div>
-        <div class="text3">
-          <div class="div21">
-            자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
-          </div>
-        </div>
-        <div class="text3">
-          <div class="div22">
-            자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
-          </div>
-        </div>
-        <div class="line-58"></div>
-        <div class="line-59"></div>
-        <div class="line-60"></div>
-        <div class="line-61"></div>
-        <div class="line-50"></div>
-        <div class="line-51"></div>
-        <div class="line-52"></div>
-        <div class="line-53"></div>
-        <div class="line-55"></div>
-        <div class="line-56"></div>
-        <div class="group-33706">
-          <div class="ellipse-14392"></div>
-          <div class="ellipse-14402"></div>
-        </div>
-        <div class="group-33707">
-          <div class="ellipse-14393"></div>
-          <div class="ellipse-14403"></div>
-        </div>
-        <div class="group-33710">
-          <div class="header-9">2023</div>
-          <div class="line-54"></div>
-          <div class="group-33708">
-            <div class="ellipse-14394"></div>
-            <div class="ellipse-14404"></div>
-          </div>
-        </div>
-        <div class="background">
-          <div class="list">
-            <div class="item">주식회사 다돌</div>
-            <div class="item2">대표이사 : 윤양식</div>
-            <div class="item-2022-2199">
-              Head Office : 세종특별자치시 연기면 조뱅이길 76-17
-            </div>
-            <div class="item-2022-21992">
-              R&amp;D Center : 부산광역시 남구 신선로 337번길 83-1
-            </div>
-            <div class="item-02-465-5077">대표전화 : 1544-5969</div>
-            <div class="item-email-openmile-openmile-co-kr">
-              Email : hello@thecarmeleon.com
-            </div>
-            <div class="item-copyright-c-openmile-co-ltd-all-rights-reserved">
-              2022 © DADOL Corp.
-            </div>
-          </div>
-          <div class="list2"></div>
         </div>
       </div>
-      <img class="frame-5" src="frame-50.png" />
-     
+      <div class="header-62">VALUE</div>
+      <div class="_4">
+        <img class="img2" src="img1.svg" />
+        <div class="text">
+          <div class="div6">
+            자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
+          </div>
+        </div>
+      </div>
+      <div
+        class="lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-s-standard-dummy-text-ever-since-the-1500-s-when-an-unknown-printer-took-a-galley-of-type-and-scrambled-it-to-make-a-type-specimen-book-it-has-survived-not-only-five-centuries-but-also-the-leap-into-electronic-typesetting-remaining-essentially-unchanged-it-was-popularised-in-the-1960-s-with-the-release-of-letraset-sheets-containing-lorem-ipsum-passages-and-more-recently-with-desktop-publishing-software-like-aldus-page-maker-including-versions-of-lorem-ipsum">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry&#039;s standard dummy text
+        ever since the 1500s, when an unknown printer took a galley of type
+        and scrambled it to make a type specimen book. It has survived not
+        only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with
+        the release of Letraset sheets containing Lorem Ipsum passages, and
+        more recently with desktop publishing software like Aldus PageMaker
+        including versions of Lorem Ipsum.
+        <br />
+      </div>
+      <div class="header-63">VISION</div>
+      <div class="_4">
+        <img class="img3" src="img2.svg" />
+        <div class="text2">
+          <div class="div7">자동차와 공간,더 큰 가치</div>
+        </div>
+      </div>
+      <div
+        class="lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industry-s-standard-dummy-text-ever-since-the-1500-s-when-an-unknown-printer-took-a-galley-of-type-and-scrambled-it-to-make-a-type-specimen-book2">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry&#039;s standard dummy text
+        ever since the 1500s, when an unknown printer took a galley of type
+        and scrambled it to make a type specimen book.
+      </div>
 
-      <img class="frame-6" src="frame-60.png" />
+      <div class="div8">주요 고객사</div>
+
+      <img class="image-1" src="image-10.png" />
+      <img class="image-2" src="image-20.png" />
+      <img class="image-3" src="image-30.png" />
+      <img class="image-4" src="image-40.png" />
+      <img class="image-5" src="image-50.png" />
+      <img class="image-6" src="image-60.png" />
+      <img class="hubble" src="hubble0.png" />
+      <img class="income" src="income0.png" />
+      <img class="lazada" src="lazada0.png" />
+      <img class="unair" src="unair0.png" />
+      <img class="jawa-pos" src="jawa-pos0.png" />
+      <img class="cbn" src="cbn0.png" />
+      <img class="ciputra" src="ciputra0.png" />
+      <div class="header-64">History</div>
+      <div class="text3">
+        <div class="div9">
+          자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
+        </div>
+      </div>
+      <div class="text3">
+        <div class="div10">
+          자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
+        </div>
+      </div>
+      <div class="text3">
+        <div class="div11">
+          자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
+        </div>
+      </div>
+      <div class="text3">
+        <div class="div12">
+          자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
+        </div>
+      </div>
+      <div class="text3">
+        <div class="div13">
+          자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
+        </div>
+      </div>
+      <div class="text3">
+        <div class="div14">
+          자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
+        </div>
+      </div>
+      <div class="text3">
+        <div class="div15">
+          자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
+        </div>
+      </div>
+      <div class="text3">
+        <div class="div16">
+          자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
+        </div>
+      </div>
+      <div class="text3">
+        <div class="div17">
+          자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
+        </div>
+      </div>
+      <div class="text3">
+        <div class="div18">
+          자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
+        </div>
+      </div>
+      <div class="header-8">2024</div>
+      <div class="line-41"></div>
+      <div class="header-10">2022</div>
+      <div class="line-57"></div>
+      <div class="group-33709">
+        <div class="ellipse-1439"></div>
+        <div class="ellipse-1440"></div>
+      </div>
+      <div class="line-46"></div>
+      <div class="line-43"></div>
+      <div class="line-47"></div>
+      <div class="line-48"></div>
+      <div class="line-49"></div>
+      <div class="text3">
+        <div class="div19">
+          자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
+        </div>
+      </div>
+      <div class="text3">
+        <div class="div20">
+          자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
+        </div>
+      </div>
+      <div class="text3">
+        <div class="div21">
+          자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
+        </div>
+      </div>
+      <div class="text3">
+        <div class="div22">
+          자동차 공간을 활용하여 고객에게 새로운 가치를 제공하는 기업
+        </div>
+      </div>
+      <div class="line-58"></div>
+      <div class="line-59"></div>
+      <div class="line-60"></div>
+      <div class="line-61"></div>
+      <div class="line-50"></div>
+      <div class="line-51"></div>
+      <div class="line-52"></div>
+      <div class="line-53"></div>
+      <div class="line-55"></div>
+      <div class="line-56"></div>
+      <div class="group-33706">
+        <div class="ellipse-14392"></div>
+        <div class="ellipse-14402"></div>
+      </div>
+      <div class="group-33707">
+        <div class="ellipse-14393"></div>
+        <div class="ellipse-14403"></div>
+      </div>
+      <div class="group-33710">
+        <div class="header-9">2023</div>
+        <div class="line-54"></div>
+        <div class="group-33708">
+          <div class="ellipse-14394"></div>
+          <div class="ellipse-14404"></div>
+        </div>
+      </div>
+      <div class="background">
+        <div class="list">
+          <div class="item">주식회사 다돌</div>
+          <div class="item2">대표이사 : 윤양식</div>
+          <div class="item-2022-2199">
+            Head Office : 세종특별자치시 연기면 조뱅이길 76-17
+          </div>
+          <div class="item-2022-21992">
+            R&amp;D Center : 부산광역시 남구 신선로 337번길 83-1
+          </div>
+          <div class="item-02-465-5077">대표전화 : 1544-5969</div>
+          <div class="item-email-openmile-openmile-co-kr">
+            Email : hello@thecarmeleon.com
+          </div>
+          <div class="item-copyright-c-openmile-co-ltd-all-rights-reserved">
+            2022 © DADOL Corp.
+          </div>
+        </div>
+        <div class="list2"></div>
+      </div>
     </div>
-  </body>
+    <img class="frame-5" src="frame-50.png" />
+
+
+    <img class="frame-6" src="frame-60.png" />
+  </div>
+</body>
+
 </html>

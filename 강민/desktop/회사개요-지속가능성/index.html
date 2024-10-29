@@ -74,71 +74,53 @@
 
 <body>
   <div class="div">
-    <header class="header">
-      <div class="header-inner">
-        <!-- 로고 -->
-        <div class="logo">DADOL</div>
-
-        <!-- 네비게이션 메뉴 -->
-        <nav class="nav-menu">
-          <div class="menu-row">
-            <!-- 드롭다운 메뉴 (회사개요) -->
-            <div class="dropdown">
-              <button class="dropdown-toggle" data-dropdown="dropdown-company">
-                회사개요
-              </button>
-              <div class="dropdown-menu dropdown-company">
-                <a href="#">지속 가능성</a>
-                <a href="../회사개요-조직 및 사업장/index.html">조직 및 사업장</a>
-                <a href="../회사개요-인증/index.html">인증</a>
-                <a href="../회사개요-언론보도/index.html">언론보도</a>
-              </div>
-            </div>
-
-            <!-- 드롭다운 메뉴 (카케어서비스) -->
-            <div class="dropdown">
-              <button class="dropdown-toggle" data-dropdown="dropdown-car-service">
-                카케어서비스
-              </button>
-              <div class="dropdown-menu dropdown-car-service">
-                <a href="../../../규원/desktop/카케어-서비스-개인출장세차/index.html">개인출장세차</a>
-                <a href="../../../규원/desktop/카케어-서비스-B2B세차/index.html">B2B세차</a>
-                <a href="../../../규원/desktop/카케어-서비스-디지털키/index.html">디지털키</a>
-              </div>
-            </div>
-
-            <!-- 드롭다운 메뉴 (제조서비스) -->
-            <div class="dropdown">
-              <button class="dropdown-toggle" data-dropdown="dropdown-manufacture">
-                제조서비스
-              </button>
-              <div class="dropdown-menu dropdown-manufacture">
-                <a href="../../../민지/desktop/Service-print/index.html">3D프린팅</a>
-                <a href="../../../민지/desktop/Service-pcb/index.html">PCB</a>
-                <a href="../../../민지/desktop/Service-software/index.html">소프트웨어</a>
-              </div>
-            </div>
-
-            <!-- 나머지 메뉴 -->
-            <a href="#">쇼핑몰</a>
-            <a href="../../../대연/desktop/서포트/index.html">서포트</a>
-            <a href="../레퍼런스/index.html">레퍼런스</a>
-            <a href="../../../소연/desktop/newsRoom.html">뉴스룸</a>
-            <a href="../../../소연/desktop/blog.html">블로그</a>
-            <a href="../../../대연/desktop/채용/index.html">채용</a>
-          </div>
-        </nav>
-
-        <!-- 언어 선택 드롭다운 -->
-        <div class="language-dropdown">
-          <button class="dropdown-button">한국어 ▾</button>
-          <div class="dropdown-content">
-            <a href="#">English</a>
-            <a href="#">中文</a>
-          </div>
-        </div>
-      </div>
+    <header>
+      <div class="logo">DADOL</div>
+      <nav>
+        <ul>
+          <li class="dropdown">
+            <a href="../../../강민/desktop/회사개요-지속가능성/index.html">회사개요</a>
+            <ul class="submenu-company-introduction">
+              <li><a href="../../../강민/desktop/회사개요-지속가능성/index.html">지속 가능성</a></li>
+              <li><a href="../../../강민/desktop/회사개요-조직 및 사업장/index.html">조직 및 사업장</a></li>
+              <li><a href="../../../강민/desktop/회사개요-인증/index.html">인증</a></li>
+              <li><a href="../../../강민/desktop/회사개요-언론보도/index.html">언론보도</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="../../../규원/desktop/카케어-서비스-개인출장세차/index.html">카케어서비스</a>
+            <ul class="submenu-carcare-service">
+              <li><a href="../../../규원/desktop/카케어-서비스-개인출장세차/index.html">개인출장세차</a></li>
+              <li><a href="../../../규원/desktop/카케어-서비스-B2B세차/index.html">B2B세차</a></li>
+              <li><a href="../../../규원/desktop/카케어-서비스-디지털키/index.html">디지털키</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="../../../민지/desktop/Service-print/index.html">제조서비스</a>
+            <ul class="submenu-product-service">
+              <li><a href="../../../민지/desktop/Service-print/index.html">3D프린팅</a></li>
+              <li><a href="../../../민지/desktop/Service-pcb/index.html">PCB</a></li>
+              <li><a href="../../../민지/desktop/Service-software/index.html">소프트웨어</a></li>
+            </ul>
+          </li>
+          <li class="nodropdown"><a href="">쇼핑몰</a></li>
+          <li class="nodropdown"><a href="../../../대연/desktop/서포트/index.html">서포트</a></li>
+          <li class="nodropdown"><a href="../../../강민/desktop/레퍼런스/index.html">레퍼런스</a></li>
+          <li class="nodropdown"><a href="../../../소연/desktop/newsRoom.html">뉴스룸</a></li>
+          <li class="nodropdown"><a href="../../../소연/desktop/blog.html">블로그</a></li>
+          <li class="nodropdown"><a href="../../../대연/desktop/채용/index.html">채용</a></li>
+          <li class="dropdown">
+            <a href="">한국어</a>
+            <ul class="submenu-language">
+              <li><a href="#">English</a></li>
+              <li><a href="#">中文</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="hamburger"><img class="hamburger-icon" src="./images/hamburgerIcon.png" alt=""></div>
     </header>
+
     <div class="frame-2" style="
         background: url(frame-20.png) center;
         background-size: cover;

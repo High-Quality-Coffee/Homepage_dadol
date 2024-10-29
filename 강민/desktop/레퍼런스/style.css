@@ -2,16 +2,22 @@
 .div * {
   box-sizing: border-box;
 }
+
 .div {
   height: 2197px;
   position: relative;
   overflow: hidden;
   display: flex;
-  align-items: center; /* 수직 중앙 정렬 */
-  justify-content: center; /* 수평 중앙 정렬 */
-  flex-direction: column; /* 필요시 수직 정렬 (여러 요소가 쌓일 경우) */
-  text-align: center; /* 텍스트 중앙 정렬 */
+  align-items: center;
+  /* 수직 중앙 정렬 */
+  justify-content: center;
+  /* 수평 중앙 정렬 */
+  flex-direction: column;
+  /* 필요시 수직 정렬 (여러 요소가 쌓일 경우) */
+  text-align: center;
+  /* 텍스트 중앙 정렬 */
 }
+
 .div2 {
   background: #ffffff;
   width: 100vw;
@@ -21,6 +27,7 @@
   top: 0px;
   overflow: hidden;
 }
+
 .frame-4544 {
   width: 100vw;
   height: 626px;
@@ -29,10 +36,12 @@
   top: 0px;
   overflow: hidden;
 }
+
 .group-33786 {
   position: absolute;
   inset: 0;
 }
+
 ._10 {
   color: #ffffff;
   text-align: left;
@@ -40,6 +49,7 @@
   left: 20%;
   top: 363px;
 }
+
 ._10-span {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -48,6 +58,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 ._10-span2 {
   color: #ffffff;
   font-family: "Pretendard-SemiBold", sans-serif;
@@ -56,6 +67,7 @@
   letter-spacing: -0.02em;
   font-weight: 600;
 }
+
 .div3 {
   color: #ffffff;
   text-align: left;
@@ -67,14 +79,16 @@
   left: 20%;
   top: 507px;
 }
+
 .background {
   background: var(--color-black-solid, #000000);
   width: 100vw;
   height: 216px;
   position: absolute;
-  
+
   top: 1981px;
 }
+
 .list {
   width: 1192px;
   position: absolute;
@@ -82,10 +96,12 @@
   bottom: 79.81px;
   top: 119px;
 }
+
 .group-1437255937 {
   position: absolute;
   inset: 0;
 }
+
 .item {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -103,6 +119,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item2 {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -120,6 +137,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item-2022-2199 {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -137,6 +155,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item-2022-21992 {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -154,6 +173,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item-02-465-5077 {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -171,6 +191,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item-email-openmile-openmile-co-kr {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -188,6 +209,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item-copyright-c-openmile-co-ltd-all-rights-reserved {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -206,6 +228,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .list2 {
   padding: 8px 0px 8px 0px;
   display: flex;
@@ -219,6 +242,7 @@
   left: 1832px;
   bottom: 15.81px;
 }
+
 ._2024-10-23-3-51-33-1 {
   width: 60%;
   height: auto;
@@ -227,6 +251,7 @@
   top: 654px;
   object-fit: cover;
 }
+
 ._2024-10-23-3-52-01-1 {
   width: 60%;
   height: 101.01px;
@@ -235,20 +260,24 @@
   top: 1880px;
   object-fit: cover;
 }
+
 .group-33744 {
   position: absolute;
   inset: 0;
 }
+
 .group-33743 {
   width: 1362px;
   height: 166px;
   position: static;
 }
+
 .group-1771 {
   width: 1195px;
   height: 166px;
   position: static;
 }
+
 .h-3-heading-title-in-two-lines {
   color: #ffffff;
   text-align: left;
@@ -261,6 +290,7 @@
   left: 39px;
   top: 32px;
 }
+
 .h-3-heading-title-in-two-lines2 {
   color: #ffffff;
   text-align: left;
@@ -273,6 +303,7 @@
   left: 1133px;
   top: 36px;
 }
+
 .h-3-heading-title-in-two-lines3 {
   color: #ffffff;
   text-align: left;
@@ -285,6 +316,7 @@
   left: 1204px;
   top: 36px;
 }
+
 .h-3-heading-title-in-two-lines4 {
   color: #ffffff;
   text-align: left;
@@ -297,6 +329,7 @@
   left: 1059px;
   top: 36px;
 }
+
 .h-3-heading-title-in-two-lines5 {
   color: #ffffff;
   text-align: left;
@@ -309,6 +342,7 @@
   left: 976px;
   top: 36px;
 }
+
 .h-3-heading-title-in-two-lines6 {
   color: #ffffff;
   text-align: left;
@@ -321,6 +355,7 @@
   left: 903px;
   top: 36px;
 }
+
 .h-3-heading-title-in-two-lines7 {
   color: #ffffff;
   text-align: left;
@@ -333,11 +368,13 @@
   left: 832px;
   top: 36px;
 }
+
 .group-33812 {
   width: 94px;
   height: 162px;
   position: static;
 }
+
 .h-3-heading-title-in-two-lines8 {
   color: #ffffff;
   text-align: left;
@@ -350,6 +387,7 @@
   left: 600px;
   top: 36px;
 }
+
 .h-3-heading-title-in-two-lines9 {
   color: #ffffff;
   text-align: center;
@@ -363,6 +401,7 @@
   top: 84px;
   width: 94px;
 }
+
 .h-3-heading-title-in-two-lines10 {
   color: #ffffff;
   text-align: center;
@@ -376,6 +415,7 @@
   top: 126px;
   width: 94px;
 }
+
 .h-3-heading-title-in-two-lines11 {
   color: #ffffff;
   text-align: center;
@@ -389,11 +429,13 @@
   top: 168px;
   width: 94px;
 }
+
 .group-33813 {
   width: 95px;
   height: 162px;
   position: static;
 }
+
 .h-3-heading-title-in-two-lines12 {
   color: #ffffff;
   text-align: left;
@@ -406,6 +448,7 @@
   left: 723px;
   top: 36px;
 }
+
 .h-3-heading-title-in-two-lines13 {
   color: #ffffff;
   text-align: center;
@@ -419,6 +462,7 @@
   top: 84px;
   width: 94px;
 }
+
 .h-3-heading-title-in-two-lines14 {
   color: #ffffff;
   text-align: center;
@@ -432,6 +476,7 @@
   top: 126px;
   width: 94px;
 }
+
 .h-3-heading-title-in-two-lines15 {
   color: #ffffff;
   text-align: center;
@@ -445,6 +490,7 @@
   top: 168px;
   width: 94px;
 }
+
 .wf-drop-down {
   background: #ffffff;
   display: flex;
@@ -457,6 +503,7 @@
   left: 1260px;
   top: 32px;
 }
+
 .drop-down-base {
   display: flex;
   flex-direction: column;
@@ -467,6 +514,7 @@
   flex-shrink: 0;
   position: relative;
 }
+
 .text-input {
   background: var(--wf-base-white, #ffffff);
   border-radius: 6px;
@@ -483,6 +531,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .label {
   padding: 12px 12px 12px 16px;
   display: flex;
@@ -494,14 +543,13 @@
   flex-shrink: 0;
   position: relative;
 }
+
 .value {
   color: var(--wf-base-800, #2d3648);
   text-align: left;
-  font-family: var(
-    --wf-body-body-medium-font-family,
-    "Inter-Regular",
-    sans-serif
-  );
+  font-family: var(--wf-body-body-medium-font-family,
+      "Inter-Regular",
+      sans-serif);
   font-size: var(--wf-body-body-medium-font-size, 16px);
   line-height: var(--wf-body-body-medium-line-height, 150%);
   letter-spacing: var(--wf-body-body-medium-letter-spacing, -0.01em);
@@ -509,6 +557,7 @@
   position: relative;
   flex: 1;
 }
+
 .icon {
   flex-shrink: 0;
   width: 24px;
@@ -516,6 +565,7 @@
   position: relative;
   overflow: visible;
 }
+
 .divider {
   background: var(--wf-base-400, #cbd2e0);
   align-self: stretch;
@@ -523,6 +573,7 @@
   height: 2px;
   position: relative;
 }
+
 .drop-down-list {
   padding: 16px;
   display: flex;
@@ -534,14 +585,13 @@
   flex-shrink: 0;
   position: relative;
 }
+
 .value2 {
   color: var(--wf-base-800, #2d3648);
   text-align: left;
-  font-family: var(
-    --wf-body-body-medium-font-family,
-    "Inter-Regular",
-    sans-serif
-  );
+  font-family: var(--wf-body-body-medium-font-family,
+      "Inter-Regular",
+      sans-serif);
   font-size: var(--wf-body-body-medium-font-size, 16px);
   line-height: var(--wf-body-body-medium-line-height, 150%);
   letter-spacing: var(--wf-body-body-medium-letter-spacing, -0.01em);
@@ -549,16 +599,19 @@
   position: relative;
   align-self: stretch;
 }
+
 .group-33814 {
   width: 94px;
   height: 204px;
   position: static;
 }
+
 .group-33811 {
   width: 94px;
   height: 204px;
   position: static;
 }
+
 .h-3-heading-title-in-two-lines16 {
   color: #ffffff;
   text-align: left;
@@ -571,6 +624,7 @@
   left: 496px;
   top: 36px;
 }
+
 .h-3-heading-title-in-two-lines17 {
   color: #ffffff;
   text-align: center;
@@ -584,6 +638,7 @@
   top: 84px;
   width: 94px;
 }
+
 .h-3-heading-title-in-two-lines18 {
   color: #ffffff;
   text-align: center;
@@ -597,6 +652,7 @@
   top: 126px;
   width: 94px;
 }
+
 .h-3-heading-title-in-two-lines19 {
   color: #ffffff;
   text-align: center;
@@ -610,6 +666,7 @@
   top: 168px;
   width: 94px;
 }
+
 .h-3-heading-title-in-two-lines20 {
   color: #ffffff;
   text-align: center;
@@ -623,6 +680,7 @@
   top: 210px;
   width: 94px;
 }
+
 .line-74 {
   margin-top: -2px;
   border-style: solid;
@@ -633,4 +691,339 @@
   position: absolute;
   left: 965px;
   top: 69px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1000;
+  background-color: transparent;
+  /* 기본 배경색을 투명으로 설정 */
+  transition: ba-color 0.3s ease;
+  /* 배경색 전환 효과 */
+}
+
+header:hover,
+nav ul li:hover~header {
+  background-color: white;
+  /* 헤더 배경색을 흰색으로 변경 */
+}
+
+header:hover a,
+header:hover nav ul .dropdown a,
+/* 드롭다운 a 태그도 검은색으로 변경 */
+header:hover .logo,
+nav ul li:hover~header a,
+nav ul li:hover~header nav ul .dropdown a,
+nav ul li:hover~header .logo {
+  color: black;
+  /* 헤더에 마우스를 올렸을 때 모든 a 태그의 폰트 색상을 검은색으로 변경 */
+}
+
+
+.logo {
+  font-family: 'Pretendard';
+  position: absolute;
+  left: 0;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  margin-left: 3rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 10px;
+}
+
+nav ul .dropdown {
+  margin-left: 4rem;
+}
+
+.dropdown:hover header {
+  background-color: #fff;
+  /* 헤더 배경색 흰색으로 변경 */
+}
+
+.nodropdown {
+  margin-left: 4rem;
+}
+
+.nodropdown a {
+  font-family: 'Pretendard';
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav ul .dropdown a {
+  font-family: 'pretendard';
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+nav .dropdown .submenu-company-introduction {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-33%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+  width: 10rem;
+}
+
+.dropdown:hover .submenu-company-introduction {
+  display: block;
+}
+
+.submenu-company-introduction li {
+  width: 100%;
+}
+
+.submenu-company-introduction li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown .submenu-carcare-service {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-24%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+  width: 10rem;
+}
+
+.dropdown:hover .submenu-carcare-service {
+  display: block;
+}
+
+.submenu-carcare-service li {
+  width: 100%;
+}
+
+.submenu-carcare-service li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown .submenu-product-service {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-28%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+  width: 10rem;
+}
+
+.dropdown:hover .submenu-product-service {
+  display: block;
+}
+
+.submenu-product-service li {
+  width: 100%;
+}
+
+.submenu-product-service li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown .submenu-language {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-27%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+}
+
+.dropdown:hover .submenu-language {
+  display: block;
+}
+
+.submenu-language li {
+  width: 100%;
+}
+
+.submenu-language li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+header nav ul .submenu-company-introduction li a,
+header nav ul .submenu-carcare-service li a,
+header nav ul .submenu-product-service li a,
+header nav ul .submenu-language li a {
+  color: #333;
+  /* 드롭다운 링크 색상 */
+}
+
+header nav ul .submenu-company-introduction li a:hover,
+header nav ul .submenu-carcare-service li a:hover,
+header nav ul .submenu-product-service li a:hover,
+header nav ul .submenu-language li a:hover {
+  color: #007BFF;
+  /* 드롭다운 링크 호버 색상 변경 */
+}
+
+.hamburger {
+  display: none;
+  /* 기본 상태에서는 숨김 */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* 스크롤 시 헤더 스타일 (배경색 흰색) */
+.header.scrolled {
+  background-color: white;
+  /* 스크롤 시 배경색 흰색 */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  /* 살짝 그림자 */
+  color: black;
+  /* 로고 및 텍스트 색상 */
+}
+
+/* 스크롤된 상태에서 링크 색상 변경 */
+.header.scrolled nav ul li a {
+  color: black;
+  /* 스크롤 후 텍스트 색상 변경 */
+}
+
+/* 반응형 스타일 추가 */
+@media (max-width: 1300px) {
+  .logo {
+    margin-left: 20px;
+  }
+
+  nav ul {
+    margin-right: 20px;
+  }
+
+  nav ul .dropdown {
+    margin-left: 20px;
+    white-space: nowrap;
+  }
+
+  .nodropdown {
+    margin-left: 20px;
+    white-space: nowrap;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 850px) {
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: centers;
+    padding: 10px;
+  }
+
+  .logo {
+    top: 10px;
+    margin-left: 20px;
+  }
+
+  nav ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  nav ul li {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  header:hover nav ul {
+    display: flex;
+    /* 메뉴를 보이게 하면서 Flexbox로 정렬 */
+  }
+
+  .hero {
+    height: 80vh;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+}
+
+a:visited {
+  /* 원하는 색상으로 지정하거나, 기존 색상을 유지하려면 inherit 사용 */
+  text-decoration: none;
+  /* 링크가 변하지 않도록 텍스트 장식도 없앰 */
 }

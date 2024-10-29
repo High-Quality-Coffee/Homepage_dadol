@@ -2,20 +2,27 @@
 .div * {
   box-sizing: border-box;
 }
+
 .div {
   height: 5602px;
   position: relative;
   /* 모든 자식 요소를 중앙 정렬하기 위한 Flexbox 설정 */
   display: flex;
-  align-items: center; /* 수직 중앙 정렬 */
-  justify-content: center; /* 수평 중앙 정렬 */
-  flex-direction: column; /* 필요시 수직 정렬 (여러 요소가 쌓일 경우) */
-  text-align: center; /* 텍스트 중앙 정렬 */
+  align-items: center;
+  /* 수직 중앙 정렬 */
+  justify-content: center;
+  /* 수평 중앙 정렬 */
+  flex-direction: column;
+  /* 필요시 수직 정렬 (여러 요소가 쌓일 경우) */
+  text-align: center;
+  /* 텍스트 중앙 정렬 */
 }
+
 .group-33792 {
   position: absolute;
   inset: 0;
 }
+
 .div2 {
   background: #ffffff;
   width: 100vw;
@@ -24,6 +31,7 @@
   top: 0px;
   overflow: hidden;
 }
+
 .img-div {
   background: #ffffff;
   width: 100vw;
@@ -33,10 +41,12 @@
   top: 0px;
   overflow: hidden;
 }
+
 .group-33805 {
   position: absolute;
   inset: 0;
 }
+
 .frame-33788 {
   border-radius: 15px;
   width: 390px;
@@ -46,6 +56,7 @@
   top: 706px;
   overflow: hidden;
 }
+
 .seoul-car-wash-crew-member-nkm-dadolcrop-com {
   color: #ffffff;
   text-align: left;
@@ -53,6 +64,7 @@
   left: 42px;
   top: 344px;
 }
+
 .seoul-car-wash-crew-member-nkm-dadolcrop-com-span {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -60,6 +72,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .seoul-car-wash-crew-member-nkm-dadolcrop-com-span2 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -67,6 +80,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .seoul-car-wash-crew-member-nkm-dadolcrop-com-span3 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -74,6 +88,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .frame-33789 {
   border-radius: 15px;
   width: 390px;
@@ -83,6 +98,7 @@
   top: 706px;
   overflow: hidden;
 }
+
 .cto-nkm-dadolcrop-com {
   color: #ffffff;
   text-align: left;
@@ -90,6 +106,7 @@
   left: 42px;
   top: 344px;
 }
+
 .cto-nkm-dadolcrop-com-span {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -97,6 +114,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .cto-nkm-dadolcrop-com-span2 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -104,6 +122,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .cto-nkm-dadolcrop-com-span3 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -111,6 +130,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .frame-33790 {
   border-radius: 15px;
   width: 390px;
@@ -120,6 +140,7 @@
   top: 706px;
   overflow: hidden;
 }
+
 .ceo-nkm-dadolcrop-com {
   color: #ffffff;
   text-align: left;
@@ -127,6 +148,7 @@
   left: 39px;
   top: 348px;
 }
+
 .ceo-nkm-dadolcrop-com-span {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -134,6 +156,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .ceo-nkm-dadolcrop-com-span2 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -141,6 +164,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .ceo-nkm-dadolcrop-com-span3 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -148,6 +172,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .frame-33791 {
   border-radius: 15px;
   width: 390px;
@@ -157,6 +182,7 @@
   top: 1235px;
   overflow: hidden;
 }
+
 .daejeon-car-wash-crew-member-nkm-dadolcrop-com {
   color: #ffffff;
   text-align: left;
@@ -164,6 +190,7 @@
   left: 42px;
   top: 344px;
 }
+
 .daejeon-car-wash-crew-member-nkm-dadolcrop-com-span {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -171,6 +198,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .daejeon-car-wash-crew-member-nkm-dadolcrop-com-span2 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -178,6 +206,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .daejeon-car-wash-crew-member-nkm-dadolcrop-com-span3 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -185,6 +214,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .frame-33792 {
   border-radius: 15px;
   width: 390px;
@@ -194,6 +224,7 @@
   top: 1235px;
   overflow: hidden;
 }
+
 .daejeon-car-wash-crew-member-nkm-dadolcrop-com-span4 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -201,6 +232,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .daejeon-car-wash-crew-member-nkm-dadolcrop-com-span5 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -208,6 +240,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .daejeon-car-wash-crew-member-nkm-dadolcrop-com-span6 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -215,6 +248,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .frame-33793 {
   border-radius: 15px;
   width: 390px;
@@ -224,6 +258,7 @@
   top: 1235px;
   overflow: hidden;
 }
+
 .web-app-developer-nkm-dadolcrop-com {
   color: #ffffff;
   text-align: left;
@@ -231,6 +266,7 @@
   left: 39px;
   top: 348px;
 }
+
 .web-app-developer-nkm-dadolcrop-com-span {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -238,6 +274,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .web-app-developer-nkm-dadolcrop-com-span2 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -245,6 +282,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .web-app-developer-nkm-dadolcrop-com-span3 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -252,6 +290,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .frame-33794 {
   border-radius: 15px;
   width: 390px;
@@ -261,6 +300,7 @@
   top: 1764px;
   overflow: hidden;
 }
+
 .daejeon-car-wash-crew-member-nkm-dadolcrop-com-span7 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -268,6 +308,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .daejeon-car-wash-crew-member-nkm-dadolcrop-com-span8 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -275,6 +316,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .daejeon-car-wash-crew-member-nkm-dadolcrop-com-span9 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -282,6 +324,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .frame-33795 {
   border-radius: 15px;
   width: 390px;
@@ -291,6 +334,7 @@
   top: 1764px;
   overflow: hidden;
 }
+
 .daejeon-car-wash-crew-member-nkm-dadolcrop-com-span10 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -298,6 +342,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .daejeon-car-wash-crew-member-nkm-dadolcrop-com-span11 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -305,6 +350,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .daejeon-car-wash-crew-member-nkm-dadolcrop-com-span12 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -312,6 +358,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .frame-33796 {
   border-radius: 15px;
   width: 390px;
@@ -321,6 +368,7 @@
   top: 1764px;
   overflow: hidden;
 }
+
 .web-app-developer-nkm-dadolcrop-com-span4 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -328,6 +376,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .web-app-developer-nkm-dadolcrop-com-span5 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -335,6 +384,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .web-app-developer-nkm-dadolcrop-com-span6 {
   color: #ffffff;
   font-family: "Pretendard-Bold", sans-serif;
@@ -342,10 +392,12 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .group-33804 {
   position: absolute;
   inset: 0;
 }
+
 .io-t {
   color: #000000;
   text-align: left;
@@ -354,6 +406,7 @@
   top: 2483px;
   width: 637px;
 }
+
 .io-t-span {
   color: #000000;
   font-family: "Pretendard-Bold", sans-serif;
@@ -361,6 +414,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 .io-t-span2 {
   color: #000000;
   font-family: "Pretendard-Bold", sans-serif;
@@ -368,6 +422,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 ._2024-10-23-3-52-01-1 {
   width: 1134px;
   height: 101.01px;
@@ -376,6 +431,7 @@
   top: 2323px;
   object-fit: cover;
 }
+
 .frame-33797 {
   width: 80%;
   height: 692px;
@@ -384,6 +440,7 @@
   top: 2644px;
   overflow: hidden;
 }
+
 .group-1776 {
   height: auto;
   position: absolute;
@@ -392,6 +449,7 @@
   transform: translate(-3.67px, -73.58px);
   overflow: visible;
 }
+
 .group-1777 {
   height: auto;
   position: absolute;
@@ -400,6 +458,7 @@
   transform: translate(-36.4px, 0px);
   overflow: visible;
 }
+
 .div3 {
   color: #000000;
   text-align: left;
@@ -411,6 +470,7 @@
   left: 10%;
   top: 3441px;
 }
+
 ._12 {
   color: #000000;
   text-align: left;
@@ -423,6 +483,7 @@
   top: 3509px;
   width: 800px;
 }
+
 .div4 {
   color: #000000;
   text-align: left;
@@ -434,6 +495,7 @@
   left: 10%;
   top: 4435px;
 }
+
 ._2-io-t-pcb-3-d-print-io-t {
   color: #000000;
   text-align: left;
@@ -446,15 +508,18 @@
   top: 4505px;
   width: 800px;
 }
+
 .group-33824 {
   position: absolute;
   inset: 0;
 }
+
 .group-33821 {
   width: 395px;
   height: 655px;
   position: static;
 }
+
 .rectangle-8981 {
   background: #ffffff;
   border-style: solid;
@@ -466,6 +531,7 @@
   left: 62%;
   top: 3647px;
 }
+
 ._2024-10-23-3-52-01-2 {
   width: 360px;
   height: 31px;
@@ -474,11 +540,13 @@
   top: 4245px;
   object-fit: cover;
 }
+
 .group-33820 {
   width: 350px;
   height: 513px;
   position: static;
 }
+
 ._55-204-1 {
   color: #000000;
   text-align: left;
@@ -490,6 +558,7 @@
   left: 64%;
   top: 3666px;
 }
+
 ._55-204-1-span {
   color: #000000;
   font-family: "Inter-Bold", sans-serif;
@@ -497,6 +566,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 ._55-204-1-span2 {
   color: #000000;
   font-family: "Inter-Regular", sans-serif;
@@ -504,6 +574,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
 }
+
 ._55-204-12 {
   color: #000000;
   text-align: left;
@@ -515,6 +586,7 @@
   left: 64%;
   top: 3759px;
 }
+
 ._55-204-12-span {
   color: #000000;
   font-family: "Inter-Bold", sans-serif;
@@ -522,6 +594,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 ._55-204-12-span2 {
   color: #000000;
   font-family: "Inter-Regular", sans-serif;
@@ -529,6 +602,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
 }
+
 ._55-204-13 {
   color: #000000;
   text-align: left;
@@ -540,6 +614,7 @@
   left: 64%;
   top: 3852px;
 }
+
 ._55-204-13-span {
   color: #000000;
   font-family: "Inter-Bold", sans-serif;
@@ -547,6 +622,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 ._55-204-13-span2 {
   color: #000000;
   font-family: "Inter-Regular", sans-serif;
@@ -554,6 +630,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
 }
+
 ._55-204-14 {
   color: #000000;
   text-align: left;
@@ -565,6 +642,7 @@
   left: 64%;
   top: 3945px;
 }
+
 ._55-204-14-span {
   color: #000000;
   font-family: "Inter-Bold", sans-serif;
@@ -572,6 +650,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 ._55-204-14-span2 {
   color: #000000;
   font-family: "Inter-Regular", sans-serif;
@@ -579,6 +658,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
 }
+
 ._55-204-15 {
   color: #000000;
   text-align: left;
@@ -590,6 +670,7 @@
   left: 64%;
   top: 4038px;
 }
+
 ._55-204-15-span {
   color: #000000;
   font-family: "Inter-Bold", sans-serif;
@@ -597,6 +678,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 ._55-204-15-span2 {
   color: #000000;
   font-family: "Inter-Regular", sans-serif;
@@ -604,6 +686,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
 }
+
 ._55-204-16 {
   color: #000000;
   text-align: left;
@@ -615,6 +698,7 @@
   left: 64%;
   top: 4131px;
 }
+
 ._55-204-16-span {
   color: #000000;
   font-family: "Inter-Bold", sans-serif;
@@ -622,6 +706,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 ._55-204-16-span2 {
   color: #000000;
   font-family: "Inter-Regular", sans-serif;
@@ -629,10 +714,12 @@
   letter-spacing: -0.02em;
   font-weight: 400;
 }
+
 .group-33825 {
   position: absolute;
   inset: 0;
 }
+
 .group-33822 {
   width: 773px;
   height: 655px;
@@ -641,6 +728,7 @@
   top: 4419px;
   overflow: visible;
 }
+
 .rectangle-89812 {
   background: #ffffff;
   border-style: solid;
@@ -652,6 +740,7 @@
   left: 62%;
   top: 4661px;
 }
+
 ._2024-10-23-3-52-01-22 {
   width: 360px;
   height: 31px;
@@ -660,6 +749,7 @@
   top: 5259px;
   object-fit: cover;
 }
+
 ._55-204-17 {
   color: #000000;
   text-align: left;
@@ -671,6 +761,7 @@
   left: 64%;
   top: 4680px;
 }
+
 ._55-204-17-span {
   color: #000000;
   font-family: "Inter-Bold", sans-serif;
@@ -678,6 +769,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 ._55-204-17-span2 {
   color: #000000;
   font-family: "Inter-Regular", sans-serif;
@@ -685,6 +777,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
 }
+
 ._55-204-18 {
   color: #000000;
   text-align: left;
@@ -696,6 +789,7 @@
   left: 64%;
   top: 4773px;
 }
+
 ._55-204-18-span {
   color: #000000;
   font-family: "Inter-Bold", sans-serif;
@@ -703,6 +797,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 ._55-204-18-span2 {
   color: #000000;
   font-family: "Inter-Regular", sans-serif;
@@ -710,6 +805,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
 }
+
 ._55-204-19 {
   color: #000000;
   text-align: left;
@@ -721,6 +817,7 @@
   left: 64%;
   top: 4866px;
 }
+
 ._55-204-19-span {
   color: #000000;
   font-family: "Inter-Bold", sans-serif;
@@ -728,6 +825,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 ._55-204-19-span2 {
   color: #000000;
   font-family: "Inter-Regular", sans-serif;
@@ -735,6 +833,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
 }
+
 ._55-204-110 {
   color: #000000;
   text-align: left;
@@ -746,6 +845,7 @@
   left: 64%;
   top: 4959px;
 }
+
 ._55-204-110-span {
   color: #000000;
   font-family: "Inter-Bold", sans-serif;
@@ -753,6 +853,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 ._55-204-110-span2 {
   color: #000000;
   font-family: "Inter-Regular", sans-serif;
@@ -760,6 +861,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
 }
+
 ._55-204-111 {
   color: #000000;
   text-align: left;
@@ -771,6 +873,7 @@
   left: 64%;
   top: 5052px;
 }
+
 ._55-204-111-span {
   color: #000000;
   font-family: "Inter-Bold", sans-serif;
@@ -778,6 +881,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 ._55-204-111-span2 {
   color: #000000;
   font-family: "Inter-Regular", sans-serif;
@@ -785,6 +889,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
 }
+
 ._55-204-112 {
   color: #000000;
   text-align: left;
@@ -796,6 +901,7 @@
   left: 64%;
   top: 5145px;
 }
+
 ._55-204-112-span {
   color: #000000;
   font-family: "Inter-Bold", sans-serif;
@@ -803,6 +909,7 @@
   letter-spacing: -0.02em;
   font-weight: 700;
 }
+
 ._55-204-112-span2 {
   color: #000000;
   font-family: "Inter-Regular", sans-serif;
@@ -810,6 +917,7 @@
   letter-spacing: -0.02em;
   font-weight: 400;
 }
+
 .basemap-image {
   width: 50%;
   height: 655px;
@@ -818,10 +926,12 @@
   top: 3647px;
   object-fit: cover;
 }
+
 .group-33863 {
   position: absolute;
   inset: 0;
 }
+
 .default-marker-component {
   width: 23.53px;
   height: 26.79px;
@@ -829,6 +939,7 @@
   left: 395px;
   top: 3823.87px;
 }
+
 .frame {
   width: 16px;
   height: 20px;
@@ -837,6 +948,7 @@
   top: 0px;
   overflow: visible;
 }
+
 .default-marker-component2 {
   width: 23.53px;
   height: 26.79px;
@@ -844,6 +956,7 @@
   left: 666.91px;
   top: 4109.25px;
 }
+
 .frame2 {
   width: 16px;
   height: 20px;
@@ -852,6 +965,7 @@
   top: 0px;
   overflow: visible;
 }
+
 .default-marker-component3 {
   width: 23.53px;
   height: 26.79px;
@@ -859,6 +973,7 @@
   left: 420.31px;
   top: 3913.13px;
 }
+
 .frame3 {
   width: 16px;
   height: 20px;
@@ -867,6 +982,7 @@
   top: 0px;
   overflow: visible;
 }
+
 .default-marker-component4 {
   width: 23.53px;
   height: 26.79px;
@@ -874,6 +990,7 @@
   left: 474.49px;
   top: 3709px;
 }
+
 .frame4 {
   width: 16px;
   height: 20px;
@@ -882,6 +999,7 @@
   top: 0px;
   overflow: visible;
 }
+
 .default-marker-component5 {
   width: 23.53px;
   height: 26.79px;
@@ -889,6 +1007,7 @@
   left: 607.51px;
   top: 4113.44px;
 }
+
 .frame5 {
   width: 16px;
   height: 20px;
@@ -897,10 +1016,12 @@
   top: 0px;
   overflow: visible;
 }
+
 .group-33861 {
   position: absolute;
   inset: 0;
 }
+
 .basemap-image2 {
   width: 50%;
   height: 655px;
@@ -909,6 +1030,7 @@
   top: 4661px;
   object-fit: cover;
 }
+
 .default-marker-component6 {
   width: 23.53px;
   height: 26.79px;
@@ -916,6 +1038,7 @@
   left: 394.87px;
   top: 4852.41px;
 }
+
 .frame6 {
   width: 16px;
   height: 20px;
@@ -924,6 +1047,7 @@
   top: 0px;
   overflow: visible;
 }
+
 .default-marker-component7 {
   width: 23.53px;
   height: 26.79px;
@@ -931,6 +1055,7 @@
   left: 666.79px;
   top: 5137.79px;
 }
+
 .frame7 {
   width: 16px;
   height: 20px;
@@ -939,6 +1064,7 @@
   top: 0px;
   overflow: visible;
 }
+
 .default-marker-component8 {
   width: 23.53px;
   height: 26.79px;
@@ -946,6 +1072,7 @@
   left: 420.18px;
   top: 4941.67px;
 }
+
 .frame8 {
   width: 16px;
   height: 20px;
@@ -954,6 +1081,7 @@
   top: 0px;
   overflow: visible;
 }
+
 .default-marker-component9 {
   width: 23.53px;
   height: 26.79px;
@@ -961,6 +1089,7 @@
   left: 474.36px;
   top: 4737.54px;
 }
+
 .frame9 {
   width: 16px;
   height: 20px;
@@ -969,6 +1098,7 @@
   top: 0px;
   overflow: visible;
 }
+
 .default-marker-component10 {
   width: 23.53px;
   height: 26.79px;
@@ -976,6 +1106,7 @@
   left: 607.38px;
   top: 5141.98px;
 }
+
 .frame10 {
   width: 16px;
   height: 20px;
@@ -984,6 +1115,7 @@
   top: 0px;
   overflow: visible;
 }
+
 .background {
   background: var(--color-black-solid, #000000);
   width: 100vw;
@@ -992,6 +1124,7 @@
   left: 0;
   top: 5386px;
 }
+
 .list {
   width: 1192px;
   position: absolute;
@@ -999,10 +1132,12 @@
   bottom: 79.81px;
   top: 119px;
 }
+
 .group-1437255937 {
   position: absolute;
   inset: 0;
 }
+
 .item {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -1020,6 +1155,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item2 {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -1037,6 +1173,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item-2022-2199 {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -1054,6 +1191,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item-2022-21992 {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -1071,6 +1209,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item-02-465-5077 {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -1088,6 +1227,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item-email-openmile-openmile-co-kr {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -1105,6 +1245,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .item-copyright-c-openmile-co-ltd-all-rights-reserved {
   color: var(--color-white-solid, #ffffff);
   text-align: left;
@@ -1123,6 +1264,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .frame-2 {
   background: linear-gradient(to left, #ffffff, #ffffff);
   border-radius: 2px;
@@ -1137,21 +1279,25 @@
   overflow: hidden;
   object-fit: cover;
 }
+
 .group-33744 {
   width: 1362px;
   height: 192.83px;
   position: static;
 }
+
 .group-33743 {
   width: 1362px;
   height: 192.83px;
   position: static;
 }
+
 .group-1771 {
   width: 1199px;
   height: 192.83px;
   position: static;
 }
+
 .h-3-heading-title-in-two-lines {
   color: #ffffff;
   text-align: left;
@@ -1166,6 +1312,7 @@
   width: 83px;
   height: 27.81px;
 }
+
 .h-3-heading-title-in-two-lines2 {
   color: #ffffff;
   text-align: left;
@@ -1180,6 +1327,7 @@
   width: 44px;
   height: 27.81px;
 }
+
 .h-3-heading-title-in-two-lines3 {
   color: #ffffff;
   text-align: left;
@@ -1194,6 +1342,7 @@
   width: 30px;
   height: 27.81px;
 }
+
 .h-3-heading-title-in-two-lines4 {
   color: #ffffff;
   text-align: left;
@@ -1208,6 +1357,7 @@
   width: 58px;
   height: 27.81px;
 }
+
 .h-3-heading-title-in-two-lines5 {
   color: #ffffff;
   text-align: center;
@@ -1222,6 +1372,7 @@
   width: 94px;
   height: 27.81px;
 }
+
 .h-3-heading-title-in-two-lines6 {
   color: #ffffff;
   text-align: center;
@@ -1236,6 +1387,7 @@
   width: 94px;
   height: 27.81px;
 }
+
 .h-3-heading-title-in-two-lines7 {
   color: #ffffff;
   text-align: center;
@@ -1250,6 +1402,7 @@
   width: 94px;
   height: 27.81px;
 }
+
 .h-3-heading-title-in-two-lines8 {
   color: #ffffff;
   text-align: center;
@@ -1264,6 +1417,7 @@
   width: 94px;
   height: 27.81px;
 }
+
 .h-3-heading-title-in-two-lines9 {
   color: #ffffff;
   text-align: left;
@@ -1278,6 +1432,7 @@
   width: 44px;
   height: 27.81px;
 }
+
 .h-3-heading-title-in-two-lines10 {
   color: #ffffff;
   text-align: left;
@@ -1292,6 +1447,7 @@
   width: 58px;
   height: 27.81px;
 }
+
 .h-3-heading-title-in-two-lines11 {
   color: #ffffff;
   text-align: left;
@@ -1306,6 +1462,7 @@
   width: 44px;
   height: 27.81px;
 }
+
 .h-3-heading-title-in-two-lines12 {
   color: #ffffff;
   text-align: left;
@@ -1320,6 +1477,7 @@
   width: 44px;
   height: 27.81px;
 }
+
 .h-3-heading-title-in-two-lines13 {
   color: #ffffff;
   text-align: left;
@@ -1334,6 +1492,7 @@
   width: 73px;
   height: 27.81px;
 }
+
 .h-3-heading-title-in-two-lines14 {
   color: #ffffff;
   text-align: left;
@@ -1348,6 +1507,7 @@
   width: 87px;
   height: 27.81px;
 }
+
 .wf-drop-down {
   background: #ffffff;
   display: flex;
@@ -1360,6 +1520,7 @@
   left: 1260px;
   top: 33.37px;
 }
+
 .drop-down-base {
   display: flex;
   flex-direction: column;
@@ -1370,6 +1531,7 @@
   flex-shrink: 0;
   position: relative;
 }
+
 .text-input {
   background: var(--wf-base-white, #ffffff);
   border-radius: 6px;
@@ -1386,6 +1548,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .label {
   padding: 12px 12px 12px 16px;
   display: flex;
@@ -1397,14 +1560,13 @@
   flex-shrink: 0;
   position: relative;
 }
+
 .value {
   color: var(--wf-base-800, #2d3648);
   text-align: left;
-  font-family: var(
-    --wf-body-body-medium-font-family,
-    "Inter-Regular",
-    sans-serif
-  );
+  font-family: var(--wf-body-body-medium-font-family,
+      "Inter-Regular",
+      sans-serif);
   font-size: var(--wf-body-body-medium-font-size, 16px);
   line-height: var(--wf-body-body-medium-line-height, 150%);
   letter-spacing: var(--wf-body-body-medium-letter-spacing, -0.01em);
@@ -1412,6 +1574,7 @@
   position: relative;
   flex: 1;
 }
+
 .icon {
   flex-shrink: 0;
   width: 24px;
@@ -1419,6 +1582,7 @@
   position: relative;
   overflow: visible;
 }
+
 .divider {
   background: var(--wf-base-400, #cbd2e0);
   align-self: stretch;
@@ -1426,6 +1590,7 @@
   height: 2px;
   position: relative;
 }
+
 .drop-down-list {
   padding: 16px;
   display: flex;
@@ -1437,14 +1602,13 @@
   flex-shrink: 0;
   position: relative;
 }
+
 .value2 {
   color: var(--wf-base-800, #2d3648);
   text-align: left;
-  font-family: var(
-    --wf-body-body-medium-font-family,
-    "Inter-Regular",
-    sans-serif
-  );
+  font-family: var(--wf-body-body-medium-font-family,
+      "Inter-Regular",
+      sans-serif);
   font-size: var(--wf-body-body-medium-font-size, 16px);
   line-height: var(--wf-body-body-medium-line-height, 150%);
   letter-spacing: var(--wf-body-body-medium-letter-spacing, -0.01em);
@@ -1452,6 +1616,7 @@
   position: relative;
   align-self: stretch;
 }
+
 .line-74 {
   margin-top: -2px;
   border-style: solid;
@@ -1463,6 +1628,7 @@
   left: 513px;
   top: 148.33px;
 }
+
 .div5 {
   color: #ffffff;
   text-align: left;
@@ -1475,4 +1641,336 @@
   top: 348.57px;
   width: 856px;
   height: 111.25px;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1000;
+  background-color: transparent;
+  /* 기본 배경색을 투명으로 설정 */
+  transition: ba-color 0.3s ease;
+  /* 배경색 전환 효과 */
+}
+
+header:hover,
+nav ul li:hover~header {
+  background-color: white;
+  /* 헤더 배경색을 흰색으로 변경 */
+}
+
+header:hover a,
+header:hover nav ul .dropdown a,
+/* 드롭다운 a 태그도 검은색으로 변경 */
+header:hover .logo,
+nav ul li:hover~header a,
+nav ul li:hover~header nav ul .dropdown a,
+nav ul li:hover~header .logo {
+  color: black;
+  /* 헤더에 마우스를 올렸을 때 모든 a 태그의 폰트 색상을 검은색으로 변경 */
+}
+
+
+.logo {
+  font-family: 'Pretendard';
+  position: absolute;
+  left: 0;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  margin-left: 3rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 10px;
+}
+
+nav ul .dropdown {
+  margin-left: 4rem;
+}
+
+.dropdown:hover header {
+  background-color: #fff;
+  /* 헤더 배경색 흰색으로 변경 */
+}
+
+.nodropdown {
+  margin-left: 4rem;
+}
+
+.nodropdown a {
+  font-family: 'Pretendard';
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav ul .dropdown a {
+  font-family: 'pretendard';
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+nav .dropdown .submenu-company-introduction {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-33%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+  width: 10rem;
+}
+
+.dropdown:hover .submenu-company-introduction {
+  display: block;
+}
+
+.submenu-company-introduction li {
+  width: 100%;
+}
+
+.submenu-company-introduction li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown .submenu-carcare-service {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-24%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+  width: 10rem;
+}
+
+.dropdown:hover .submenu-carcare-service {
+  display: block;
+}
+
+.submenu-carcare-service li {
+  width: 100%;
+}
+
+.submenu-carcare-service li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown .submenu-product-service {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-28%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+  width: 10rem;
+}
+
+.dropdown:hover .submenu-product-service {
+  display: block;
+}
+
+.submenu-product-service li {
+  width: 100%;
+}
+
+.submenu-product-service li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dropdown .submenu-language {
+  display: none;
+  position: absolute;
+  top: 40px;
+  transform: translateX(-27%);
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+}
+
+.dropdown:hover .submenu-language {
+  display: block;
+}
+
+.submenu-language li {
+  width: 100%;
+}
+
+.submenu-language li a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+header nav ul .submenu-company-introduction li a,
+header nav ul .submenu-carcare-service li a,
+header nav ul .submenu-product-service li a,
+header nav ul .submenu-language li a {
+  color: #333;
+  /* 드롭다운 링크 색상 */
+}
+
+header nav ul .submenu-company-introduction li a:hover,
+header nav ul .submenu-carcare-service li a:hover,
+header nav ul .submenu-product-service li a:hover,
+header nav ul .submenu-language li a:hover {
+  color: #007BFF;
+  /* 드롭다운 링크 호버 색상 변경 */
+}
+
+.hamburger {
+  display: none;
+  /* 기본 상태에서는 숨김 */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.hamburger-icon {}
+
+/* 스크롤 시 헤더 스타일 (배경색 흰색) */
+.header.scrolled {
+  background-color: white;
+  /* 스크롤 시 배경색 흰색 */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  /* 살짝 그림자 */
+  color: black;
+  /* 로고 및 텍스트 색상 */
+}
+
+/* 스크롤된 상태에서 링크 색상 변경 */
+.header.scrolled nav ul li a {
+  color: black;
+  /* 스크롤 후 텍스트 색상 변경 */
+}
+
+/* 반응형 스타일 추가 */
+@media (max-width: 1300px) {
+  .logo {
+    margin-left: 20px;
+  }
+
+  nav ul {
+    margin-right: 20px;
+  }
+
+  nav ul .dropdown {
+    margin-left: 20px;
+    white-space: nowrap;
+  }
+
+  .nodropdown {
+    margin-left: 20px;
+    white-space: nowrap;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 850px) {
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: centers;
+    padding: 10px;
+  }
+
+  .logo {
+    top: 10px;
+    margin-left: 20px;
+  }
+
+  nav ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  nav ul li {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  header:hover nav ul {
+    display: flex;
+    /* 메뉴를 보이게 하면서 Flexbox로 정렬 */
+  }
+
+  .hero {
+    height: 80vh;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
 }
